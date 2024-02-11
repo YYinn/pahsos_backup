@@ -92,9 +92,8 @@ python test.py --experiments_name block160_new_2023-03-10T23:36:42 --block_size 
 
 # 5. Result evalation
 ./result_val.ipynb : evaluate each fold of models 
-./visualize.ipybn : visualization
-
-./result_val_ensemble.ipynb : evaluate resemble model of 5 folds 
+./visualize.ipybn : visualization of block/patient level ROC for each fold
+./result_val_ensemble.ipynb : evaluate ensemble model of 5 folds 
 
 
 
