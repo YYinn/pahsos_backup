@@ -1,0 +1,2 @@
+INFO:root:Namespace(batch_size=16, block_size=64, evaluation='acc', experiments_name='s12_block64_maskedTrue_es50_2023-02-24T09:50:32', fold=5, input_size=64, input_type=1, json_path='/mnt/ExtData/pahsos/Data/data_split.json', log_dir='/mnt/ExtData/pahsos/classification/log', masked=True, note='_', root_path='/mnt/ExtData/pahsos/Data/preprocessed', samples_per_patient=12, seed=147)
+INFO:root:👉 FOLD 0

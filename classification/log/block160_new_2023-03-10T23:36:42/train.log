@@ -1,0 +1,2093 @@
+INFO:root:Namespace(batch_size=16, block_size=160, checkpoint=None, earlystop=20, fold=5, input_size=64, json_path='/home/mengyucong/zhihao_workspace/pahsos/file/data_split.json', log_dir='./log', lr=3e-05, note='new', num_epochs=200, optim='SGD', root_path='/home/mengyucong/zhihao_workspace/pahsos/160', samples_per_patient=12, seed=147, start_epoch=0, start_fold=0)
+INFO:root:👉 FOLD 0
+INFO:root:Loading 12 blocks for each person
+INFO:root:🟢 fold 0 epoch 0
+INFO:root:-- train -- loss : 0.9228 | accuracy : 0.5292 | f1 : 0.4155 | pre : 0.2802 | recall : 0.8033 | auc : 0.6766
+INFO:root:-- val --  val_loss : 0.6948, accuracy : 0.7972 | f1 : 0.6636 | pre : 0.4966 | recall : 1.0000 | auc : 0.8924
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.7972222222222223
+INFO:root:✅ get better auc 0.8924093364197531
+INFO:root:== best accuracy : 0.7972222222222223 in fold 0 epoch 0
+INFO:root:== best AUC : 0.8924093364197531 in fold 0 epoch 0
+INFO:root:🟢 fold 0 epoch 1
+INFO:root:-- train -- loss : 0.6807 | accuracy : 0.7562 | f1 : 0.6025 | pre : 0.4563 | recall : 0.8867 | auc : 0.8835
+INFO:root:-- val --  val_loss : 0.6617, accuracy : 0.8667 | f1 : 0.6129 | pre : 0.7308 | recall : 0.5278 | auc : 0.9507
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.8666666666666667
+INFO:root:✅ get better auc 0.9507137345679013
+INFO:root:== best accuracy : 0.8666666666666667 in fold 0 epoch 1
+INFO:root:== best AUC : 0.9507137345679013 in fold 0 epoch 1
+INFO:root:🟢 fold 0 epoch 2
+INFO:root:-- train -- loss : 0.6286 | accuracy : 0.8083 | f1 : 0.6533 | pre : 0.5242 | recall : 0.8667 | auc : 0.8960
+INFO:root:-- val --  val_loss : 1.0025, accuracy : 0.2917 | f1 : 0.3609 | pre : 0.2202 | recall : 1.0000 | auc : 0.9581
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better auc 0.9581404320987654
+INFO:root:== best accuracy : 0.8666666666666667 in fold 0 epoch 1
+INFO:root:== best AUC : 0.9581404320987654 in fold 0 epoch 1
+INFO:root:🟢 fold 0 epoch 3
+INFO:root:-- train -- loss : 0.6042 | accuracy : 0.8042 | f1 : 0.6544 | pre : 0.5174 | recall : 0.8900 | auc : 0.9100
+INFO:root:-- val --  val_loss : 0.3754, accuracy : 0.9167 | f1 : 0.8125 | pre : 0.7386 | recall : 0.9028 | auc : 0.9574
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9166666666666666
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9581404320987654 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 4
+INFO:root:-- train -- loss : 0.5735 | accuracy : 0.8222 | f1 : 0.6784 | pre : 0.5444 | recall : 0.9000 | auc : 0.9191
+INFO:root:-- val --  val_loss : 0.4324, accuracy : 0.8056 | f1 : 0.6729 | pre : 0.5070 | recall : 1.0000 | auc : 0.9681
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better auc 0.9681230709876543
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9681230709876543 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 5
+INFO:root:-- train -- loss : 0.5273 | accuracy : 0.8264 | f1 : 0.6827 | pre : 0.5512 | recall : 0.8967 | auc : 0.9282
+INFO:root:-- val --  val_loss : 0.3018, accuracy : 0.9167 | f1 : 0.8276 | pre : 0.7059 | recall : 1.0000 | auc : 0.9753
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9753086419753085
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9753086419753085 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 6
+INFO:root:-- train -- loss : 0.5672 | accuracy : 0.8243 | f1 : 0.6793 | pre : 0.5481 | recall : 0.8933 | auc : 0.9212
+INFO:root:-- val --  val_loss : 0.3182, accuracy : 0.8972 | f1 : 0.7956 | pre : 0.6606 | recall : 1.0000 | auc : 0.9757
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better auc 0.9756944444444444
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 7
+INFO:root:-- train -- loss : 0.4834 | accuracy : 0.8653 | f1 : 0.7378 | pre : 0.6205 | recall : 0.9100 | auc : 0.9380
+INFO:root:-- val --  val_loss : 2.5422, accuracy : 0.2028 | f1 : 0.3341 | pre : 0.2006 | recall : 1.0000 | auc : 0.8388
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 8
+INFO:root:-- train -- loss : 0.4736 | accuracy : 0.8507 | f1 : 0.7175 | pre : 0.5922 | recall : 0.9100 | auc : 0.9368
+INFO:root:-- val --  val_loss : 0.2620, accuracy : 0.9167 | f1 : 0.8276 | pre : 0.7059 | recall : 1.0000 | auc : 0.9719
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 9
+INFO:root:-- train -- loss : 0.4226 | accuracy : 0.8688 | f1 : 0.7497 | pre : 0.6220 | recall : 0.9433 | auc : 0.9479
+INFO:root:-- val --  val_loss : 2.1255, accuracy : 0.2000 | f1 : 0.3333 | pre : 0.2000 | recall : 1.0000 | auc : 0.9450
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 10
+INFO:root:-- train -- loss : 0.4499 | accuracy : 0.8556 | f1 : 0.7277 | pre : 0.5991 | recall : 0.9267 | auc : 0.9427
+INFO:root:-- val --  val_loss : 0.2694, accuracy : 0.9139 | f1 : 0.8229 | pre : 0.6990 | recall : 1.0000 | auc : 0.9702
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 11
+INFO:root:-- train -- loss : 0.3850 | accuracy : 0.8875 | f1 : 0.7769 | pre : 0.6620 | recall : 0.9400 | auc : 0.9561
+INFO:root:-- val --  val_loss : 0.2607, accuracy : 0.9056 | f1 : 0.8090 | pre : 0.6792 | recall : 1.0000 | auc : 0.9740
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 12
+INFO:root:-- train -- loss : 0.4114 | accuracy : 0.8646 | f1 : 0.7410 | pre : 0.6159 | recall : 0.9300 | auc : 0.9524
+INFO:root:-- val --  val_loss : 1.0099, accuracy : 0.4083 | f1 : 0.4034 | pre : 0.2526 | recall : 1.0000 | auc : 0.9681
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9166666666666666 in fold 0 epoch 3
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 3
+INFO:root:🟢 fold 0 epoch 13
+INFO:root:-- train -- loss : 0.4143 | accuracy : 0.8792 | f1 : 0.7610 | pre : 0.6472 | recall : 0.9233 | auc : 0.9540
+INFO:root:-- val --  val_loss : 0.2820, accuracy : 0.9417 | f1 : 0.8679 | pre : 0.7931 | recall : 0.9583 | auc : 0.9648
+INFO:root:Early stop process : 2 / 20
+INFO:root:✅ get better accuracy 0.9416666666666667
+INFO:root:== best accuracy : 0.9416666666666667 in fold 0 epoch 13
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 13
+INFO:root:🟢 fold 0 epoch 14
+INFO:root:-- train -- loss : 0.4185 | accuracy : 0.8674 | f1 : 0.7463 | pre : 0.6203 | recall : 0.9367 | auc : 0.9528
+INFO:root:-- val --  val_loss : 0.9871, accuracy : 0.4500 | f1 : 0.4211 | pre : 0.2667 | recall : 1.0000 | auc : 0.9722
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9416666666666667 in fold 0 epoch 13
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 13
+INFO:root:🟢 fold 0 epoch 15
+INFO:root:-- train -- loss : 0.4180 | accuracy : 0.8674 | f1 : 0.7477 | pre : 0.6193 | recall : 0.9433 | auc : 0.9494
+INFO:root:-- val --  val_loss : 1.6457, accuracy : 0.8222 | f1 : 0.3333 | pre : 0.6667 | recall : 0.2222 | auc : 0.9532
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9416666666666667 in fold 0 epoch 13
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 13
+INFO:root:🟢 fold 0 epoch 16
+INFO:root:-- train -- loss : 0.3743 | accuracy : 0.8924 | f1 : 0.7832 | pre : 0.6747 | recall : 0.9333 | auc : 0.9604
+INFO:root:-- val --  val_loss : 0.5192, accuracy : 0.7417 | f1 : 0.6076 | pre : 0.4364 | recall : 1.0000 | auc : 0.9698
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9416666666666667 in fold 0 epoch 13
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 13
+INFO:root:🟢 fold 0 epoch 17
+INFO:root:-- train -- loss : 0.3833 | accuracy : 0.8764 | f1 : 0.7614 | pre : 0.6368 | recall : 0.9467 | auc : 0.9587
+INFO:root:-- val --  val_loss : 0.2855, accuracy : 0.8889 | f1 : 0.7826 | pre : 0.6429 | recall : 1.0000 | auc : 0.9719
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9416666666666667 in fold 0 epoch 13
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 13
+INFO:root:🟢 fold 0 epoch 18
+INFO:root:-- train -- loss : 0.3746 | accuracy : 0.8917 | f1 : 0.7821 | pre : 0.6731 | recall : 0.9333 | auc : 0.9615
+INFO:root:-- val --  val_loss : 0.2441, accuracy : 0.9333 | f1 : 0.8554 | pre : 0.7553 | recall : 0.9861 | auc : 0.9678
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9416666666666667 in fold 0 epoch 13
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 13
+INFO:root:🟢 fold 0 epoch 19
+INFO:root:-- train -- loss : 0.3524 | accuracy : 0.8979 | f1 : 0.7938 | pre : 0.6852 | recall : 0.9433 | auc : 0.9631
+INFO:root:-- val --  val_loss : 0.2302, accuracy : 0.9556 | f1 : 0.8961 | pre : 0.8415 | recall : 0.9583 | auc : 0.9690
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9555555555555556
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 20
+INFO:root:-- train -- loss : 0.3501 | accuracy : 0.8944 | f1 : 0.7877 | pre : 0.6779 | recall : 0.9400 | auc : 0.9643
+INFO:root:-- val --  val_loss : 0.6629, accuracy : 0.6528 | f1 : 0.5353 | pre : 0.3655 | recall : 1.0000 | auc : 0.9702
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 21
+INFO:root:-- train -- loss : 0.3541 | accuracy : 0.8896 | f1 : 0.7831 | pre : 0.6628 | recall : 0.9567 | auc : 0.9659
+INFO:root:-- val --  val_loss : 0.7339, accuracy : 0.8889 | f1 : 0.6875 | pre : 0.7857 | recall : 0.6111 | auc : 0.9566
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 22
+INFO:root:-- train -- loss : 0.2913 | accuracy : 0.9097 | f1 : 0.8164 | pre : 0.7083 | recall : 0.9633 | auc : 0.9744
+INFO:root:-- val --  val_loss : 0.2422, accuracy : 0.9389 | f1 : 0.8642 | pre : 0.7778 | recall : 0.9722 | auc : 0.9654
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 23
+INFO:root:-- train -- loss : 0.2949 | accuracy : 0.9139 | f1 : 0.8218 | pre : 0.7222 | recall : 0.9533 | auc : 0.9734
+INFO:root:-- val --  val_loss : 2.3374, accuracy : 0.2056 | f1 : 0.3349 | pre : 0.2011 | recall : 1.0000 | auc : 0.9487
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 24
+INFO:root:-- train -- loss : 0.3250 | accuracy : 0.9069 | f1 : 0.8097 | pre : 0.7054 | recall : 0.9500 | auc : 0.9669
+INFO:root:-- val --  val_loss : 0.3327, accuracy : 0.8472 | f1 : 0.7236 | pre : 0.5669 | recall : 1.0000 | auc : 0.9626
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 25
+INFO:root:-- train -- loss : 0.2982 | accuracy : 0.8965 | f1 : 0.7933 | pre : 0.6793 | recall : 0.9533 | auc : 0.9721
+INFO:root:-- val --  val_loss : 0.2752, accuracy : 0.9139 | f1 : 0.8229 | pre : 0.6990 | recall : 1.0000 | auc : 0.9627
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 26
+INFO:root:-- train -- loss : 0.2985 | accuracy : 0.9007 | f1 : 0.8011 | pre : 0.6874 | recall : 0.9600 | auc : 0.9735
+INFO:root:-- val --  val_loss : 0.2494, accuracy : 0.9389 | f1 : 0.8625 | pre : 0.7841 | recall : 0.9583 | auc : 0.9649
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 27
+INFO:root:-- train -- loss : 0.3368 | accuracy : 0.8951 | f1 : 0.7917 | pre : 0.6753 | recall : 0.9567 | auc : 0.9682
+INFO:root:-- val --  val_loss : 0.4112, accuracy : 0.9222 | f1 : 0.8108 | pre : 0.7895 | recall : 0.8333 | auc : 0.9608
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 28
+INFO:root:-- train -- loss : 0.3080 | accuracy : 0.9035 | f1 : 0.8017 | pre : 0.7007 | recall : 0.9367 | auc : 0.9716
+INFO:root:-- val --  val_loss : 0.7552, accuracy : 0.6389 | f1 : 0.5255 | pre : 0.3564 | recall : 1.0000 | auc : 0.9667
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 29
+INFO:root:-- train -- loss : 0.3048 | accuracy : 0.9132 | f1 : 0.8227 | pre : 0.7160 | recall : 0.9667 | auc : 0.9749
+INFO:root:-- val --  val_loss : 0.2932, accuracy : 0.8833 | f1 : 0.7717 | pre : 0.6339 | recall : 0.9861 | auc : 0.9595
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 30
+INFO:root:-- train -- loss : 0.2743 | accuracy : 0.9167 | f1 : 0.8266 | pre : 0.7296 | recall : 0.9533 | auc : 0.9770
+INFO:root:-- val --  val_loss : 0.2465, accuracy : 0.9083 | f1 : 0.8136 | pre : 0.6857 | recall : 1.0000 | auc : 0.9685
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 31
+INFO:root:-- train -- loss : 0.2960 | accuracy : 0.9021 | f1 : 0.8022 | pre : 0.6925 | recall : 0.9533 | auc : 0.9746
+INFO:root:-- val --  val_loss : 0.8518, accuracy : 0.5861 | f1 : 0.4915 | pre : 0.3258 | recall : 1.0000 | auc : 0.8960
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 32
+INFO:root:-- train -- loss : 0.2312 | accuracy : 0.9299 | f1 : 0.8530 | pre : 0.7571 | recall : 0.9767 | auc : 0.9811
+INFO:root:-- val --  val_loss : 0.3940, accuracy : 0.8278 | f1 : 0.6990 | pre : 0.5373 | recall : 1.0000 | auc : 0.9702
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 33
+INFO:root:-- train -- loss : 0.2624 | accuracy : 0.9181 | f1 : 0.8305 | pre : 0.7298 | recall : 0.9633 | auc : 0.9760
+INFO:root:-- val --  val_loss : 0.3550, accuracy : 0.8611 | f1 : 0.7340 | pre : 0.5948 | recall : 0.9583 | auc : 0.9413
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 34
+INFO:root:-- train -- loss : 0.2640 | accuracy : 0.9104 | f1 : 0.8170 | pre : 0.7111 | recall : 0.9600 | auc : 0.9766
+INFO:root:-- val --  val_loss : 0.4121, accuracy : 0.9250 | f1 : 0.8112 | pre : 0.8169 | recall : 0.8056 | auc : 0.9630
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 35
+INFO:root:-- train -- loss : 0.2854 | accuracy : 0.9187 | f1 : 0.8317 | pre : 0.7316 | recall : 0.9633 | auc : 0.9749
+INFO:root:-- val --  val_loss : 0.4408, accuracy : 0.7917 | f1 : 0.6575 | pre : 0.4898 | recall : 1.0000 | auc : 0.9534
+INFO:root:Early stop process : 16 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 36
+INFO:root:-- train -- loss : 0.2492 | accuracy : 0.9208 | f1 : 0.8357 | pre : 0.7360 | recall : 0.9667 | auc : 0.9795
+INFO:root:-- val --  val_loss : 0.2898, accuracy : 0.8972 | f1 : 0.7886 | pre : 0.6699 | recall : 0.9583 | auc : 0.9603
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 37
+INFO:root:-- train -- loss : 0.2350 | accuracy : 0.9361 | f1 : 0.8635 | pre : 0.7781 | recall : 0.9700 | auc : 0.9839
+INFO:root:-- val --  val_loss : 2.2458, accuracy : 0.2611 | f1 : 0.3512 | pre : 0.2130 | recall : 1.0000 | auc : 0.8681
+INFO:root:Early stop process : 18 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 38
+INFO:root:-- train -- loss : 0.3055 | accuracy : 0.9097 | f1 : 0.8169 | pre : 0.7073 | recall : 0.9667 | auc : 0.9736
+INFO:root:-- val --  val_loss : 2.5452, accuracy : 0.8111 | f1 : 0.2917 | pre : 0.5833 | recall : 0.1944 | auc : 0.9566
+INFO:root:Early stop process : 19 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 0 epoch 19
+INFO:root:== best AUC : 0.9756944444444444 in fold 0 epoch 19
+INFO:root:🟢 fold 0 epoch 39
+INFO:root:-- train -- loss : 0.2887 | accuracy : 0.9174 | f1 : 0.8278 | pre : 0.7315 | recall : 0.9533 | auc : 0.9779
+INFO:root:-- val --  val_loss : 0.3406, accuracy : 0.8583 | f1 : 0.7385 | pre : 0.5854 | recall : 1.0000 | auc : 0.9708
+INFO:root:Early stop ! 
+INFO:root:👉 FOLD 1
+INFO:root:Loading 12 blocks for each person
+INFO:root:🟢 fold 1 epoch 0
+INFO:root:-- train -- loss : 0.9042 | accuracy : 0.5528 | f1 : 0.4321 | pre : 0.2938 | recall : 0.8167 | auc : 0.7009
+INFO:root:-- val --  val_loss : 0.8468, accuracy : 0.8194 | f1 : 0.5860 | pre : 0.5412 | recall : 0.6389 | auc : 0.8331
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.8194444444444444
+INFO:root:✅ get better auc 0.8330922067901235
+INFO:root:== best accuracy : 0.8194444444444444 in fold 1 epoch 0
+INFO:root:== best AUC : 0.8330922067901235 in fold 1 epoch 0
+INFO:root:🟢 fold 1 epoch 1
+INFO:root:-- train -- loss : 0.6144 | accuracy : 0.8007 | f1 : 0.6496 | pre : 0.5125 | recall : 0.8867 | auc : 0.9109
+INFO:root:-- val --  val_loss : 0.5964, accuracy : 0.8583 | f1 : 0.6946 | pre : 0.6105 | recall : 0.8056 | auc : 0.9124
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.8583333333333333
+INFO:root:✅ get better auc 0.9124228395061729
+INFO:root:== best accuracy : 0.8583333333333333 in fold 1 epoch 1
+INFO:root:== best AUC : 0.9124228395061729 in fold 1 epoch 1
+INFO:root:🟢 fold 1 epoch 2
+INFO:root:-- train -- loss : 0.5653 | accuracy : 0.8410 | f1 : 0.7030 | pre : 0.5754 | recall : 0.9033 | auc : 0.9180
+INFO:root:-- val --  val_loss : 0.5906, accuracy : 0.8278 | f1 : 0.6517 | pre : 0.5472 | recall : 0.8056 | auc : 0.9066
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.8583333333333333 in fold 1 epoch 1
+INFO:root:== best AUC : 0.9124228395061729 in fold 1 epoch 1
+INFO:root:🟢 fold 1 epoch 3
+INFO:root:-- train -- loss : 0.5165 | accuracy : 0.8403 | f1 : 0.7036 | pre : 0.5735 | recall : 0.9100 | auc : 0.9334
+INFO:root:-- val --  val_loss : 0.5104, accuracy : 0.9222 | f1 : 0.8000 | pre : 0.8235 | recall : 0.7778 | auc : 0.9435
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9222222222222223
+INFO:root:✅ get better auc 0.9434799382716048
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9434799382716048 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 4
+INFO:root:-- train -- loss : 0.5023 | accuracy : 0.8493 | f1 : 0.7163 | pre : 0.5892 | recall : 0.9133 | auc : 0.9328
+INFO:root:-- val --  val_loss : 2.1992, accuracy : 0.8111 | f1 : 0.4688 | pre : 0.5357 | recall : 0.4167 | auc : 0.8724
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9434799382716048 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 5
+INFO:root:-- train -- loss : 0.4923 | accuracy : 0.8500 | f1 : 0.7165 | pre : 0.5909 | recall : 0.9100 | auc : 0.9381
+INFO:root:-- val --  val_loss : 0.5237, accuracy : 0.8611 | f1 : 0.6795 | pre : 0.6310 | recall : 0.7361 | auc : 0.9319
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9434799382716048 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 6
+INFO:root:-- train -- loss : 0.4751 | accuracy : 0.8514 | f1 : 0.7169 | pre : 0.5943 | recall : 0.9033 | auc : 0.9388
+INFO:root:-- val --  val_loss : 4.8367, accuracy : 0.7472 | f1 : 0.0000 | pre : 0.0000 | recall : 0.0000 | auc : 0.8353
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9434799382716048 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 7
+INFO:root:-- train -- loss : 0.4784 | accuracy : 0.8646 | f1 : 0.7438 | pre : 0.6139 | recall : 0.9433 | auc : 0.9368
+INFO:root:-- val --  val_loss : 0.4418, accuracy : 0.8417 | f1 : 0.6952 | pre : 0.5652 | recall : 0.9028 | auc : 0.9433
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9434799382716048 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 8
+INFO:root:-- train -- loss : 0.4083 | accuracy : 0.8799 | f1 : 0.7678 | pre : 0.6427 | recall : 0.9533 | auc : 0.9510
+INFO:root:-- val --  val_loss : 0.7297, accuracy : 0.9000 | f1 : 0.7273 | pre : 0.8000 | recall : 0.6667 | auc : 0.9442
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better auc 0.9442033179012346
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9442033179012346 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 9
+INFO:root:-- train -- loss : 0.4385 | accuracy : 0.8729 | f1 : 0.7576 | pre : 0.6286 | recall : 0.9533 | auc : 0.9494
+INFO:root:-- val --  val_loss : 0.4662, accuracy : 0.8056 | f1 : 0.6698 | pre : 0.5071 | recall : 0.9861 | auc : 0.9580
+INFO:root:Early stop process : 2 / 20
+INFO:root:✅ get better auc 0.9580439814814814
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 10
+INFO:root:-- train -- loss : 0.3825 | accuracy : 0.8826 | f1 : 0.7675 | pre : 0.6534 | recall : 0.9300 | auc : 0.9575
+INFO:root:-- val --  val_loss : 0.5960, accuracy : 0.7417 | f1 : 0.5903 | pre : 0.4323 | recall : 0.9306 | auc : 0.9211
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 11
+INFO:root:-- train -- loss : 0.3549 | accuracy : 0.9014 | f1 : 0.8006 | pre : 0.6917 | recall : 0.9500 | auc : 0.9628
+INFO:root:-- val --  val_loss : 1.8118, accuracy : 0.8889 | f1 : 0.6875 | pre : 0.7857 | recall : 0.6111 | auc : 0.9310
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 12
+INFO:root:-- train -- loss : 0.3825 | accuracy : 0.8882 | f1 : 0.7773 | pre : 0.6643 | recall : 0.9367 | auc : 0.9579
+INFO:root:-- val --  val_loss : 1.6497, accuracy : 0.9000 | f1 : 0.7273 | pre : 0.8000 | recall : 0.6667 | auc : 0.9210
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 13
+INFO:root:-- train -- loss : 0.3778 | accuracy : 0.8812 | f1 : 0.7648 | pre : 0.6511 | recall : 0.9267 | auc : 0.9606
+INFO:root:-- val --  val_loss : 0.4635, accuracy : 0.7944 | f1 : 0.6606 | pre : 0.4932 | recall : 1.0000 | auc : 0.9572
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 14
+INFO:root:-- train -- loss : 0.3772 | accuracy : 0.8861 | f1 : 0.7766 | pre : 0.6567 | recall : 0.9500 | auc : 0.9562
+INFO:root:-- val --  val_loss : 1.4264, accuracy : 0.9000 | f1 : 0.7273 | pre : 0.8000 | recall : 0.6667 | auc : 0.9306
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 15
+INFO:root:-- train -- loss : 0.4150 | accuracy : 0.8729 | f1 : 0.7550 | pre : 0.6309 | recall : 0.9400 | auc : 0.9529
+INFO:root:-- val --  val_loss : 0.6882, accuracy : 0.6389 | f1 : 0.5255 | pre : 0.3564 | recall : 1.0000 | auc : 0.9537
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 16
+INFO:root:-- train -- loss : 0.3334 | accuracy : 0.9007 | f1 : 0.7994 | pre : 0.6901 | recall : 0.9500 | auc : 0.9632
+INFO:root:-- val --  val_loss : 0.5346, accuracy : 0.8556 | f1 : 0.7079 | pre : 0.5943 | recall : 0.8750 | auc : 0.9347
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 17
+INFO:root:-- train -- loss : 0.3713 | accuracy : 0.8757 | f1 : 0.7617 | pre : 0.6341 | recall : 0.9533 | auc : 0.9579
+INFO:root:-- val --  val_loss : 0.7005, accuracy : 0.8639 | f1 : 0.6755 | pre : 0.6456 | recall : 0.7083 | auc : 0.9463
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 18
+INFO:root:-- train -- loss : 0.3551 | accuracy : 0.8993 | f1 : 0.7983 | pre : 0.6850 | recall : 0.9567 | auc : 0.9630
+INFO:root:-- val --  val_loss : 1.3218, accuracy : 0.9056 | f1 : 0.7385 | pre : 0.8276 | recall : 0.6667 | auc : 0.9289
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 19
+INFO:root:-- train -- loss : 0.3313 | accuracy : 0.9076 | f1 : 0.8103 | pre : 0.7082 | recall : 0.9467 | auc : 0.9668
+INFO:root:-- val --  val_loss : 3.1622, accuracy : 0.8889 | f1 : 0.6226 | pre : 0.9706 | recall : 0.4583 | auc : 0.8980
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 20
+INFO:root:-- train -- loss : 0.3168 | accuracy : 0.9028 | f1 : 0.8056 | pre : 0.6905 | recall : 0.9667 | auc : 0.9645
+INFO:root:-- val --  val_loss : 0.6397, accuracy : 0.9222 | f1 : 0.8000 | pre : 0.8235 | recall : 0.7778 | auc : 0.9470
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 21
+INFO:root:-- train -- loss : 0.3306 | accuracy : 0.9028 | f1 : 0.8017 | pre : 0.6970 | recall : 0.9433 | auc : 0.9650
+INFO:root:-- val --  val_loss : 0.9131, accuracy : 0.5139 | f1 : 0.4514 | pre : 0.2915 | recall : 1.0000 | auc : 0.9514
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.9222222222222223 in fold 1 epoch 3
+INFO:root:== best AUC : 0.9580439814814814 in fold 1 epoch 3
+INFO:root:🟢 fold 1 epoch 22
+INFO:root:-- train -- loss : 0.2943 | accuracy : 0.9132 | f1 : 0.8242 | pre : 0.7129 | recall : 0.9767 | auc : 0.9710
+INFO:root:-- val --  val_loss : 0.4291, accuracy : 0.9306 | f1 : 0.8276 | pre : 0.8219 | recall : 0.8333 | auc : 0.9642
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9305555555555556
+INFO:root:✅ get better auc 0.9642168209876543
+INFO:root:== best accuracy : 0.9305555555555556 in fold 1 epoch 22
+INFO:root:== best AUC : 0.9642168209876543 in fold 1 epoch 22
+INFO:root:🟢 fold 1 epoch 23
+INFO:root:-- train -- loss : 0.2719 | accuracy : 0.9181 | f1 : 0.8314 | pre : 0.7275 | recall : 0.9700 | auc : 0.9759
+INFO:root:-- val --  val_loss : 0.4315, accuracy : 0.9222 | f1 : 0.8028 | pre : 0.8143 | recall : 0.7917 | auc : 0.9700
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better auc 0.9699556327160495
+INFO:root:== best accuracy : 0.9305555555555556 in fold 1 epoch 22
+INFO:root:== best AUC : 0.9699556327160495 in fold 1 epoch 22
+INFO:root:🟢 fold 1 epoch 24
+INFO:root:-- train -- loss : 0.3156 | accuracy : 0.9111 | f1 : 0.8161 | pre : 0.7172 | recall : 0.9467 | auc : 0.9693
+INFO:root:-- val --  val_loss : 0.6582, accuracy : 0.9194 | f1 : 0.7914 | pre : 0.8209 | recall : 0.7639 | auc : 0.9617
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9305555555555556 in fold 1 epoch 22
+INFO:root:== best AUC : 0.9699556327160495 in fold 1 epoch 22
+INFO:root:🟢 fold 1 epoch 25
+INFO:root:-- train -- loss : 0.2855 | accuracy : 0.9181 | f1 : 0.8309 | pre : 0.7286 | recall : 0.9667 | auc : 0.9724
+INFO:root:-- val --  val_loss : 1.4883, accuracy : 0.9000 | f1 : 0.7273 | pre : 0.8000 | recall : 0.6667 | auc : 0.9317
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9305555555555556 in fold 1 epoch 22
+INFO:root:== best AUC : 0.9699556327160495 in fold 1 epoch 22
+INFO:root:🟢 fold 1 epoch 26
+INFO:root:-- train -- loss : 0.2493 | accuracy : 0.9306 | f1 : 0.8534 | pre : 0.7618 | recall : 0.9700 | auc : 0.9770
+INFO:root:-- val --  val_loss : 0.3448, accuracy : 0.9250 | f1 : 0.8138 | pre : 0.8082 | recall : 0.8194 | auc : 0.9704
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9703896604938271
+INFO:root:== best accuracy : 0.9305555555555556 in fold 1 epoch 22
+INFO:root:== best AUC : 0.9703896604938271 in fold 1 epoch 22
+INFO:root:🟢 fold 1 epoch 27
+INFO:root:-- train -- loss : 0.2835 | accuracy : 0.9014 | f1 : 0.8022 | pre : 0.6890 | recall : 0.9600 | auc : 0.9713
+INFO:root:-- val --  val_loss : 1.3636, accuracy : 0.9111 | f1 : 0.7647 | pre : 0.8125 | recall : 0.7222 | auc : 0.9484
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9305555555555556 in fold 1 epoch 22
+INFO:root:== best AUC : 0.9703896604938271 in fold 1 epoch 22
+INFO:root:🟢 fold 1 epoch 28
+INFO:root:-- train -- loss : 0.2835 | accuracy : 0.9181 | f1 : 0.8305 | pre : 0.7298 | recall : 0.9633 | auc : 0.9719
+INFO:root:-- val --  val_loss : 0.5211, accuracy : 0.9333 | f1 : 0.8333 | pre : 0.8333 | recall : 0.8333 | auc : 0.9606
+INFO:root:Early stop process : 2 / 20
+INFO:root:✅ get better accuracy 0.9333333333333333
+INFO:root:== best accuracy : 0.9333333333333333 in fold 1 epoch 28
+INFO:root:== best AUC : 0.9703896604938271 in fold 1 epoch 28
+INFO:root:🟢 fold 1 epoch 29
+INFO:root:-- train -- loss : 0.2758 | accuracy : 0.9104 | f1 : 0.8181 | pre : 0.7090 | recall : 0.9667 | auc : 0.9709
+INFO:root:-- val --  val_loss : 0.9290, accuracy : 0.9167 | f1 : 0.7794 | pre : 0.8281 | recall : 0.7361 | auc : 0.9606
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9333333333333333 in fold 1 epoch 28
+INFO:root:== best AUC : 0.9703896604938271 in fold 1 epoch 28
+INFO:root:🟢 fold 1 epoch 30
+INFO:root:-- train -- loss : 0.2904 | accuracy : 0.9306 | f1 : 0.8525 | pre : 0.7646 | recall : 0.9633 | auc : 0.9744
+INFO:root:-- val --  val_loss : 0.8397, accuracy : 0.5972 | f1 : 0.4948 | pre : 0.3302 | recall : 0.9861 | auc : 0.9479
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9333333333333333 in fold 1 epoch 28
+INFO:root:== best AUC : 0.9703896604938271 in fold 1 epoch 28
+INFO:root:🟢 fold 1 epoch 31
+INFO:root:-- train -- loss : 0.2849 | accuracy : 0.9167 | f1 : 0.8286 | pre : 0.7250 | recall : 0.9667 | auc : 0.9749
+INFO:root:-- val --  val_loss : 1.9281, accuracy : 0.2750 | f1 : 0.3556 | pre : 0.2162 | recall : 1.0000 | auc : 0.8292
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9333333333333333 in fold 1 epoch 28
+INFO:root:== best AUC : 0.9703896604938271 in fold 1 epoch 28
+INFO:root:🟢 fold 1 epoch 32
+INFO:root:-- train -- loss : 0.2880 | accuracy : 0.9236 | f1 : 0.8406 | pre : 0.7436 | recall : 0.9667 | auc : 0.9717
+INFO:root:-- val --  val_loss : 0.5436, accuracy : 0.9306 | f1 : 0.8227 | pre : 0.8406 | recall : 0.8056 | auc : 0.9760
+INFO:root:Early stop process : 6 / 20
+INFO:root:✅ get better auc 0.9760320216049383
+INFO:root:== best accuracy : 0.9333333333333333 in fold 1 epoch 28
+INFO:root:== best AUC : 0.9760320216049383 in fold 1 epoch 28
+INFO:root:🟢 fold 1 epoch 33
+INFO:root:-- train -- loss : 0.2223 | accuracy : 0.9340 | f1 : 0.8613 | pre : 0.7662 | recall : 0.9833 | auc : 0.9771
+INFO:root:-- val --  val_loss : 1.4729, accuracy : 0.9028 | f1 : 0.7328 | pre : 0.8136 | recall : 0.6667 | auc : 0.9576
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9333333333333333 in fold 1 epoch 28
+INFO:root:== best AUC : 0.9760320216049383 in fold 1 epoch 28
+INFO:root:🟢 fold 1 epoch 34
+INFO:root:-- train -- loss : 0.2278 | accuracy : 0.9354 | f1 : 0.8622 | pre : 0.7760 | recall : 0.9700 | auc : 0.9776
+INFO:root:-- val --  val_loss : 6.2091, accuracy : 0.8167 | f1 : 0.1538 | pre : 1.0000 | recall : 0.0833 | auc : 0.8929
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9333333333333333 in fold 1 epoch 28
+INFO:root:== best AUC : 0.9760320216049383 in fold 1 epoch 28
+INFO:root:🟢 fold 1 epoch 35
+INFO:root:-- train -- loss : 0.2429 | accuracy : 0.9271 | f1 : 0.8476 | pre : 0.7506 | recall : 0.9733 | auc : 0.9760
+INFO:root:-- val --  val_loss : 0.2390, accuracy : 0.9444 | f1 : 0.8701 | pre : 0.8171 | recall : 0.9306 | auc : 0.9831
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9444444444444444
+INFO:root:✅ get better auc 0.9830729166666667
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 36
+INFO:root:-- train -- loss : 0.3058 | accuracy : 0.9153 | f1 : 0.8247 | pre : 0.7247 | recall : 0.9567 | auc : 0.9737
+INFO:root:-- val --  val_loss : 0.3021, accuracy : 0.9056 | f1 : 0.8090 | pre : 0.6792 | recall : 1.0000 | auc : 0.9813
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 37
+INFO:root:-- train -- loss : 0.2668 | accuracy : 0.9076 | f1 : 0.8135 | pre : 0.7022 | recall : 0.9667 | auc : 0.9754
+INFO:root:-- val --  val_loss : 2.4147, accuracy : 0.2611 | f1 : 0.3512 | pre : 0.2130 | recall : 1.0000 | auc : 0.6860
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 38
+INFO:root:-- train -- loss : 0.2240 | accuracy : 0.9271 | f1 : 0.8463 | pre : 0.7546 | recall : 0.9633 | auc : 0.9801
+INFO:root:-- val --  val_loss : 0.3889, accuracy : 0.8417 | f1 : 0.7136 | pre : 0.5591 | recall : 0.9861 | auc : 0.9782
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 39
+INFO:root:-- train -- loss : 0.2496 | accuracy : 0.9229 | f1 : 0.8403 | pre : 0.7392 | recall : 0.9733 | auc : 0.9750
+INFO:root:-- val --  val_loss : 0.6940, accuracy : 0.6500 | f1 : 0.5333 | pre : 0.3636 | recall : 1.0000 | auc : 0.9727
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 40
+INFO:root:-- train -- loss : 0.2459 | accuracy : 0.9271 | f1 : 0.8467 | pre : 0.7532 | recall : 0.9667 | auc : 0.9799
+INFO:root:-- val --  val_loss : 0.3442, accuracy : 0.9167 | f1 : 0.8214 | pre : 0.7188 | recall : 0.9583 | auc : 0.9775
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 41
+INFO:root:-- train -- loss : 0.2418 | accuracy : 0.9222 | f1 : 0.8377 | pre : 0.7410 | recall : 0.9633 | auc : 0.9779
+INFO:root:-- val --  val_loss : 1.7594, accuracy : 0.9000 | f1 : 0.7273 | pre : 0.8000 | recall : 0.6667 | auc : 0.9538
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 42
+INFO:root:-- train -- loss : 0.2870 | accuracy : 0.9028 | f1 : 0.8034 | pre : 0.6942 | recall : 0.9533 | auc : 0.9725
+INFO:root:-- val --  val_loss : 0.2870, accuracy : 0.9417 | f1 : 0.8645 | pre : 0.8072 | recall : 0.9306 | auc : 0.9777
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 43
+INFO:root:-- train -- loss : 0.2463 | accuracy : 0.9243 | f1 : 0.8423 | pre : 0.7442 | recall : 0.9700 | auc : 0.9780
+INFO:root:-- val --  val_loss : 1.0161, accuracy : 0.5056 | f1 : 0.4472 | pre : 0.2880 | recall : 1.0000 | auc : 0.9540
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 44
+INFO:root:-- train -- loss : 0.2313 | accuracy : 0.9361 | f1 : 0.8635 | pre : 0.7781 | recall : 0.9700 | auc : 0.9795
+INFO:root:-- val --  val_loss : 2.5598, accuracy : 0.2694 | f1 : 0.3538 | pre : 0.2149 | recall : 1.0000 | auc : 0.6120
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9830729166666667 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 45
+INFO:root:-- train -- loss : 0.2323 | accuracy : 0.9257 | f1 : 0.8447 | pre : 0.7481 | recall : 0.9700 | auc : 0.9780
+INFO:root:-- val --  val_loss : 0.5689, accuracy : 0.6806 | f1 : 0.5560 | pre : 0.3850 | recall : 1.0000 | auc : 0.9845
+INFO:root:Early stop process : 10 / 20
+INFO:root:✅ get better auc 0.9845196759259259
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 46
+INFO:root:-- train -- loss : 0.1694 | accuracy : 0.9479 | f1 : 0.8882 | pre : 0.8032 | recall : 0.9933 | auc : 0.9869
+INFO:root:-- val --  val_loss : 0.3558, accuracy : 0.9333 | f1 : 0.8400 | pre : 0.8077 | recall : 0.8750 | auc : 0.9793
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 47
+INFO:root:-- train -- loss : 0.2660 | accuracy : 0.9208 | f1 : 0.8357 | pre : 0.7360 | recall : 0.9667 | auc : 0.9740
+INFO:root:-- val --  val_loss : 1.2438, accuracy : 0.9167 | f1 : 0.7656 | pre : 0.8750 | recall : 0.6806 | auc : 0.9661
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 48
+INFO:root:-- train -- loss : 0.1672 | accuracy : 0.9521 | f1 : 0.8953 | pre : 0.8217 | recall : 0.9833 | auc : 0.9847
+INFO:root:-- val --  val_loss : 0.8991, accuracy : 0.5556 | f1 : 0.4737 | pre : 0.3103 | recall : 1.0000 | auc : 0.9742
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 49
+INFO:root:-- train -- loss : 0.2732 | accuracy : 0.9236 | f1 : 0.8424 | pre : 0.7387 | recall : 0.9800 | auc : 0.9741
+INFO:root:-- val --  val_loss : 0.4099, accuracy : 0.8333 | f1 : 0.6970 | pre : 0.5476 | recall : 0.9583 | auc : 0.9647
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 50
+INFO:root:-- train -- loss : 0.2745 | accuracy : 0.9174 | f1 : 0.8302 | pre : 0.7257 | recall : 0.9700 | auc : 0.9748
+INFO:root:-- val --  val_loss : 0.6220, accuracy : 0.6583 | f1 : 0.5393 | pre : 0.3692 | recall : 1.0000 | auc : 0.9804
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 51
+INFO:root:-- train -- loss : 0.1855 | accuracy : 0.9500 | f1 : 0.8906 | pre : 0.8184 | recall : 0.9767 | auc : 0.9825
+INFO:root:-- val --  val_loss : 0.3142, accuracy : 0.9444 | f1 : 0.8667 | pre : 0.8333 | recall : 0.9028 | auc : 0.9819
+INFO:root:Early stop process : 16 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 52
+INFO:root:-- train -- loss : 0.1886 | accuracy : 0.9458 | f1 : 0.8825 | pre : 0.8049 | recall : 0.9767 | auc : 0.9852
+INFO:root:-- val --  val_loss : 0.3514, accuracy : 0.8667 | f1 : 0.7474 | pre : 0.6017 | recall : 0.9861 | auc : 0.9844
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 53
+INFO:root:-- train -- loss : 0.2140 | accuracy : 0.9299 | f1 : 0.8530 | pre : 0.7571 | recall : 0.9767 | auc : 0.9827
+INFO:root:-- val --  val_loss : 0.2896, accuracy : 0.8639 | f1 : 0.7407 | pre : 0.5983 | recall : 0.9722 | auc : 0.9757
+INFO:root:Early stop process : 18 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 54
+INFO:root:-- train -- loss : 0.2583 | accuracy : 0.9222 | f1 : 0.8400 | pre : 0.7350 | recall : 0.9800 | auc : 0.9746
+INFO:root:-- val --  val_loss : 3.0082, accuracy : 0.9333 | f1 : 0.8000 | pre : 1.0000 | recall : 0.6667 | auc : 0.9280
+INFO:root:Early stop process : 19 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 1 epoch 35
+INFO:root:== best AUC : 0.9845196759259259 in fold 1 epoch 35
+INFO:root:🟢 fold 1 epoch 55
+INFO:root:-- train -- loss : 0.2535 | accuracy : 0.9181 | f1 : 0.8329 | pre : 0.7241 | recall : 0.9800 | auc : 0.9764
+INFO:root:-- val --  val_loss : 0.4865, accuracy : 0.9333 | f1 : 0.8333 | pre : 0.8333 | recall : 0.8333 | auc : 0.9766
+INFO:root:Early stop ! 
+INFO:root:👉 FOLD 2
+INFO:root:Loading 12 blocks for each person
+INFO:root:🟢 fold 2 epoch 0
+INFO:root:-- train -- loss : 0.9363 | accuracy : 0.5146 | f1 : 0.4101 | pre : 0.2746 | recall : 0.8100 | auc : 0.6542
+INFO:root:-- val --  val_loss : 0.7114, accuracy : 0.7972 | f1 : 0.6294 | pre : 0.4960 | recall : 0.8611 | auc : 0.9175
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.7972222222222223
+INFO:root:✅ get better auc 0.9174864969135803
+INFO:root:== best accuracy : 0.7972222222222223 in fold 2 epoch 0
+INFO:root:== best AUC : 0.9174864969135803 in fold 2 epoch 0
+INFO:root:🟢 fold 2 epoch 1
+INFO:root:-- train -- loss : 0.6832 | accuracy : 0.7611 | f1 : 0.6055 | pre : 0.4615 | recall : 0.8800 | auc : 0.8803
+INFO:root:-- val --  val_loss : 0.5910, accuracy : 0.9278 | f1 : 0.8194 | pre : 0.8194 | recall : 0.8194 | auc : 0.9540
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9277777777777778
+INFO:root:✅ get better auc 0.9540412808641976
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9540412808641976 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 2
+INFO:root:-- train -- loss : 0.6203 | accuracy : 0.8104 | f1 : 0.6600 | pre : 0.5268 | recall : 0.8833 | auc : 0.9019
+INFO:root:-- val --  val_loss : 1.9312, accuracy : 0.2000 | f1 : 0.3333 | pre : 0.2000 | recall : 1.0000 | auc : 0.6008
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9540412808641976 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 3
+INFO:root:-- train -- loss : 0.5802 | accuracy : 0.7986 | f1 : 0.6514 | pre : 0.5094 | recall : 0.9033 | auc : 0.9121
+INFO:root:-- val --  val_loss : 0.4314, accuracy : 0.8528 | f1 : 0.7104 | pre : 0.5856 | recall : 0.9028 | auc : 0.9588
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9587673611111112
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9587673611111112 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 4
+INFO:root:-- train -- loss : 0.5664 | accuracy : 0.8257 | f1 : 0.6786 | pre : 0.5509 | recall : 0.8833 | auc : 0.9185
+INFO:root:-- val --  val_loss : 0.5674, accuracy : 0.7694 | f1 : 0.6210 | pre : 0.4626 | recall : 0.9444 | auc : 0.9311
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9587673611111112 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 5
+INFO:root:-- train -- loss : 0.5165 | accuracy : 0.8326 | f1 : 0.6938 | pre : 0.5606 | recall : 0.9100 | auc : 0.9314
+INFO:root:-- val --  val_loss : 0.5132, accuracy : 0.7722 | f1 : 0.6339 | pre : 0.4671 | recall : 0.9861 | auc : 0.9632
+INFO:root:Early stop process : 2 / 20
+INFO:root:✅ get better auc 0.9632040895061729
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9632040895061729 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 6
+INFO:root:-- train -- loss : 0.4587 | accuracy : 0.8688 | f1 : 0.7442 | pre : 0.6264 | recall : 0.9167 | auc : 0.9393
+INFO:root:-- val --  val_loss : 2.7906, accuracy : 0.8417 | f1 : 0.3448 | pre : 1.0000 | recall : 0.2083 | auc : 0.9467
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9632040895061729 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 7
+INFO:root:-- train -- loss : 0.5048 | accuracy : 0.8271 | f1 : 0.6820 | pre : 0.5528 | recall : 0.8900 | auc : 0.9308
+INFO:root:-- val --  val_loss : 0.3877, accuracy : 0.9000 | f1 : 0.7882 | pre : 0.6837 | recall : 0.9306 | auc : 0.9627
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9632040895061729 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 8
+INFO:root:-- train -- loss : 0.4725 | accuracy : 0.8681 | f1 : 0.7473 | pre : 0.6217 | recall : 0.9367 | auc : 0.9392
+INFO:root:-- val --  val_loss : 0.6103, accuracy : 0.6972 | f1 : 0.5692 | pre : 0.3978 | recall : 1.0000 | auc : 0.9481
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9632040895061729 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 9
+INFO:root:-- train -- loss : 0.4495 | accuracy : 0.8639 | f1 : 0.7387 | pre : 0.6156 | recall : 0.9233 | auc : 0.9448
+INFO:root:-- val --  val_loss : 0.4112, accuracy : 0.8333 | f1 : 0.6970 | pre : 0.5476 | recall : 0.9583 | auc : 0.9583
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9632040895061729 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 10
+INFO:root:-- train -- loss : 0.4258 | accuracy : 0.8722 | f1 : 0.7520 | pre : 0.6312 | recall : 0.9300 | auc : 0.9485
+INFO:root:-- val --  val_loss : 0.4707, accuracy : 0.8222 | f1 : 0.6800 | pre : 0.5312 | recall : 0.9444 | auc : 0.9459
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9632040895061729 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 11
+INFO:root:-- train -- loss : 0.4088 | accuracy : 0.8924 | f1 : 0.7850 | pre : 0.6722 | recall : 0.9433 | auc : 0.9523
+INFO:root:-- val --  val_loss : 0.9435, accuracy : 0.4861 | f1 : 0.4377 | pre : 0.2802 | recall : 1.0000 | auc : 0.9297
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9632040895061729 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 12
+INFO:root:-- train -- loss : 0.4463 | accuracy : 0.8604 | f1 : 0.7345 | pre : 0.6083 | recall : 0.9267 | auc : 0.9460
+INFO:root:-- val --  val_loss : 0.3023, accuracy : 0.8917 | f1 : 0.7821 | pre : 0.6542 | recall : 0.9722 | auc : 0.9716
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9715952932098766
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 13
+INFO:root:-- train -- loss : 0.4110 | accuracy : 0.8868 | f1 : 0.7752 | pre : 0.6612 | recall : 0.9367 | auc : 0.9545
+INFO:root:-- val --  val_loss : 0.3280, accuracy : 0.8528 | f1 : 0.7254 | pre : 0.5785 | recall : 0.9722 | auc : 0.9701
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 14
+INFO:root:-- train -- loss : 0.3902 | accuracy : 0.8910 | f1 : 0.7816 | pre : 0.6706 | recall : 0.9367 | auc : 0.9529
+INFO:root:-- val --  val_loss : 0.7252, accuracy : 0.6278 | f1 : 0.5180 | pre : 0.3495 | recall : 1.0000 | auc : 0.9553
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9277777777777778 in fold 2 epoch 1
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 1
+INFO:root:🟢 fold 2 epoch 15
+INFO:root:-- train -- loss : 0.3716 | accuracy : 0.8875 | f1 : 0.7781 | pre : 0.6605 | recall : 0.9467 | auc : 0.9582
+INFO:root:-- val --  val_loss : 0.3195, accuracy : 0.9444 | f1 : 0.8718 | pre : 0.8095 | recall : 0.9444 | auc : 0.9706
+INFO:root:Early stop process : 3 / 20
+INFO:root:✅ get better accuracy 0.9444444444444444
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 16
+INFO:root:-- train -- loss : 0.3784 | accuracy : 0.8847 | f1 : 0.7738 | pre : 0.6544 | recall : 0.9467 | auc : 0.9538
+INFO:root:-- val --  val_loss : 0.3527, accuracy : 0.8389 | f1 : 0.7100 | pre : 0.5547 | recall : 0.9861 | auc : 0.9704
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 17
+INFO:root:-- train -- loss : 0.4029 | accuracy : 0.8757 | f1 : 0.7604 | pre : 0.6353 | recall : 0.9467 | auc : 0.9523
+INFO:root:-- val --  val_loss : 0.3025, accuracy : 0.8667 | f1 : 0.7447 | pre : 0.6034 | recall : 0.9722 | auc : 0.9705
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 18
+INFO:root:-- train -- loss : 0.4035 | accuracy : 0.8972 | f1 : 0.7939 | pre : 0.6818 | recall : 0.9500 | auc : 0.9571
+INFO:root:-- val --  val_loss : 0.3385, accuracy : 0.8472 | f1 : 0.7208 | pre : 0.5680 | recall : 0.9861 | auc : 0.9685
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 19
+INFO:root:-- train -- loss : 0.3478 | accuracy : 0.9007 | f1 : 0.8006 | pre : 0.6882 | recall : 0.9567 | auc : 0.9585
+INFO:root:-- val --  val_loss : 0.3673, accuracy : 0.8333 | f1 : 0.7030 | pre : 0.5462 | recall : 0.9861 | auc : 0.9669
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 20
+INFO:root:-- train -- loss : 0.4115 | accuracy : 0.8799 | f1 : 0.7653 | pre : 0.6453 | recall : 0.9400 | auc : 0.9541
+INFO:root:-- val --  val_loss : 0.3537, accuracy : 0.8417 | f1 : 0.7107 | pre : 0.5600 | recall : 0.9722 | auc : 0.9677
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 21
+INFO:root:-- train -- loss : 0.3555 | accuracy : 0.8896 | f1 : 0.7813 | pre : 0.6651 | recall : 0.9467 | auc : 0.9640
+INFO:root:-- val --  val_loss : 0.5467, accuracy : 0.7472 | f1 : 0.6094 | pre : 0.4410 | recall : 0.9861 | auc : 0.9588
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9715952932098766 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 22
+INFO:root:-- train -- loss : 0.3133 | accuracy : 0.9118 | f1 : 0.8214 | pre : 0.7105 | recall : 0.9733 | auc : 0.9680
+INFO:root:-- val --  val_loss : 0.2373, accuracy : 0.9139 | f1 : 0.8208 | pre : 0.7030 | recall : 0.9861 | auc : 0.9751
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9751157407407407
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9751157407407407 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 23
+INFO:root:-- train -- loss : 0.3008 | accuracy : 0.9049 | f1 : 0.8089 | pre : 0.6954 | recall : 0.9667 | auc : 0.9713
+INFO:root:-- val --  val_loss : 0.9026, accuracy : 0.5667 | f1 : 0.4800 | pre : 0.3158 | recall : 1.0000 | auc : 0.9592
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9751157407407407 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 24
+INFO:root:-- train -- loss : 0.3221 | accuracy : 0.9035 | f1 : 0.8045 | pre : 0.6959 | recall : 0.9533 | auc : 0.9652
+INFO:root:-- val --  val_loss : 0.3229, accuracy : 0.8556 | f1 : 0.7320 | pre : 0.5820 | recall : 0.9861 | auc : 0.9735
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9444444444444444 in fold 2 epoch 15
+INFO:root:== best AUC : 0.9751157407407407 in fold 2 epoch 15
+INFO:root:🟢 fold 2 epoch 25
+INFO:root:-- train -- loss : 0.2860 | accuracy : 0.9076 | f1 : 0.8124 | pre : 0.7042 | recall : 0.9600 | auc : 0.9722
+INFO:root:-- val --  val_loss : 0.1929, accuracy : 0.9500 | f1 : 0.8861 | pre : 0.8140 | recall : 0.9722 | auc : 0.9789
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.95
+INFO:root:✅ get better auc 0.9789255401234568
+INFO:root:== best accuracy : 0.95 in fold 2 epoch 25
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 25
+INFO:root:🟢 fold 2 epoch 26
+INFO:root:-- train -- loss : 0.2797 | accuracy : 0.9056 | f1 : 0.8090 | pre : 0.6990 | recall : 0.9600 | auc : 0.9714
+INFO:root:-- val --  val_loss : 0.2372, accuracy : 0.9361 | f1 : 0.8589 | pre : 0.7692 | recall : 0.9722 | auc : 0.9748
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.95 in fold 2 epoch 25
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 25
+INFO:root:🟢 fold 2 epoch 27
+INFO:root:-- train -- loss : 0.3669 | accuracy : 0.8903 | f1 : 0.7824 | pre : 0.6667 | recall : 0.9467 | auc : 0.9615
+INFO:root:-- val --  val_loss : 0.1871, accuracy : 0.9528 | f1 : 0.8931 | pre : 0.8161 | recall : 0.9861 | auc : 0.9780
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9527777777777777
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 28
+INFO:root:-- train -- loss : 0.3123 | accuracy : 0.9056 | f1 : 0.8090 | pre : 0.6990 | recall : 0.9600 | auc : 0.9690
+INFO:root:-- val --  val_loss : 0.4764, accuracy : 0.7611 | f1 : 0.6261 | pre : 0.4557 | recall : 1.0000 | auc : 0.9736
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 29
+INFO:root:-- train -- loss : 0.2748 | accuracy : 0.9153 | f1 : 0.8272 | pre : 0.7192 | recall : 0.9733 | auc : 0.9751
+INFO:root:-- val --  val_loss : 0.3008, accuracy : 0.9250 | f1 : 0.8383 | pre : 0.7368 | recall : 0.9722 | auc : 0.9697
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 30
+INFO:root:-- train -- loss : 0.2789 | accuracy : 0.9215 | f1 : 0.8355 | pre : 0.7416 | recall : 0.9567 | auc : 0.9767
+INFO:root:-- val --  val_loss : 0.2298, accuracy : 0.9278 | f1 : 0.8434 | pre : 0.7447 | recall : 0.9722 | auc : 0.9742
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 31
+INFO:root:-- train -- loss : 0.2591 | accuracy : 0.9160 | f1 : 0.8264 | pre : 0.7254 | recall : 0.9600 | auc : 0.9773
+INFO:root:-- val --  val_loss : 0.4642, accuracy : 0.7972 | f1 : 0.6636 | pre : 0.4966 | recall : 1.0000 | auc : 0.9741
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 32
+INFO:root:-- train -- loss : 0.2847 | accuracy : 0.9125 | f1 : 0.8220 | pre : 0.7132 | recall : 0.9700 | auc : 0.9723
+INFO:root:-- val --  val_loss : 0.3132, accuracy : 0.8667 | f1 : 0.7500 | pre : 0.6000 | recall : 1.0000 | auc : 0.9760
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 33
+INFO:root:-- train -- loss : 0.2533 | accuracy : 0.9160 | f1 : 0.8279 | pre : 0.7221 | recall : 0.9700 | auc : 0.9773
+INFO:root:-- val --  val_loss : 0.2263, accuracy : 0.9167 | f1 : 0.8256 | pre : 0.7100 | recall : 0.9861 | auc : 0.9728
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 34
+INFO:root:-- train -- loss : 0.2504 | accuracy : 0.9215 | f1 : 0.8383 | pre : 0.7343 | recall : 0.9767 | auc : 0.9765
+INFO:root:-- val --  val_loss : 0.2227, accuracy : 0.9139 | f1 : 0.8208 | pre : 0.7030 | recall : 0.9861 | auc : 0.9755
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 35
+INFO:root:-- train -- loss : 0.2871 | accuracy : 0.9132 | f1 : 0.8227 | pre : 0.7160 | recall : 0.9667 | auc : 0.9773
+INFO:root:-- val --  val_loss : 0.3449, accuracy : 0.8333 | f1 : 0.7030 | pre : 0.5462 | recall : 0.9861 | auc : 0.9720
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9527777777777777 in fold 2 epoch 27
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 27
+INFO:root:🟢 fold 2 epoch 36
+INFO:root:-- train -- loss : 0.3081 | accuracy : 0.9090 | f1 : 0.8147 | pre : 0.7076 | recall : 0.9600 | auc : 0.9700
+INFO:root:-- val --  val_loss : 0.2304, accuracy : 0.9556 | f1 : 0.8961 | pre : 0.8415 | recall : 0.9583 | auc : 0.9747
+INFO:root:Early stop process : 9 / 20
+INFO:root:✅ get better accuracy 0.9555555555555556
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 37
+INFO:root:-- train -- loss : 0.2793 | accuracy : 0.9146 | f1 : 0.8235 | pre : 0.7229 | recall : 0.9567 | auc : 0.9768
+INFO:root:-- val --  val_loss : 3.3083, accuracy : 0.2000 | f1 : 0.3333 | pre : 0.2000 | recall : 1.0000 | auc : 0.6778
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 38
+INFO:root:-- train -- loss : 0.2538 | accuracy : 0.9167 | f1 : 0.8291 | pre : 0.7239 | recall : 0.9700 | auc : 0.9758
+INFO:root:-- val --  val_loss : 2.2260, accuracy : 0.2111 | f1 : 0.3364 | pre : 0.2022 | recall : 1.0000 | auc : 0.8192
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 39
+INFO:root:-- train -- loss : 0.2835 | accuracy : 0.9090 | f1 : 0.8152 | pre : 0.7066 | recall : 0.9633 | auc : 0.9747
+INFO:root:-- val --  val_loss : 0.2220, accuracy : 0.9361 | f1 : 0.8589 | pre : 0.7692 | recall : 0.9722 | auc : 0.9705
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 40
+INFO:root:-- train -- loss : 0.2419 | accuracy : 0.9194 | f1 : 0.8348 | pre : 0.7289 | recall : 0.9767 | auc : 0.9784
+INFO:root:-- val --  val_loss : 0.2859, accuracy : 0.8750 | f1 : 0.7619 | pre : 0.6154 | recall : 1.0000 | auc : 0.9725
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 41
+INFO:root:-- train -- loss : 0.2070 | accuracy : 0.9333 | f1 : 0.8580 | pre : 0.7713 | recall : 0.9667 | auc : 0.9837
+INFO:root:-- val --  val_loss : 0.2310, accuracy : 0.9056 | f1 : 0.8068 | pre : 0.6827 | recall : 0.9861 | auc : 0.9747
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 42
+INFO:root:-- train -- loss : 0.2013 | accuracy : 0.9396 | f1 : 0.8707 | pre : 0.7855 | recall : 0.9767 | auc : 0.9847
+INFO:root:-- val --  val_loss : 0.2301, accuracy : 0.9556 | f1 : 0.8974 | pre : 0.8333 | recall : 0.9722 | auc : 0.9747
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 43
+INFO:root:-- train -- loss : 0.1868 | accuracy : 0.9368 | f1 : 0.8656 | pre : 0.7772 | recall : 0.9767 | auc : 0.9860
+INFO:root:-- val --  val_loss : 0.4878, accuracy : 0.9306 | f1 : 0.8175 | pre : 0.8615 | recall : 0.7778 | auc : 0.9744
+INFO:root:Early stop process : 16 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 44
+INFO:root:-- train -- loss : 0.2132 | accuracy : 0.9361 | f1 : 0.8631 | pre : 0.7796 | recall : 0.9667 | auc : 0.9827
+INFO:root:-- val --  val_loss : 0.6837, accuracy : 0.6639 | f1 : 0.5434 | pre : 0.3731 | recall : 1.0000 | auc : 0.9173
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 45
+INFO:root:-- train -- loss : 0.2684 | accuracy : 0.9236 | f1 : 0.8401 | pre : 0.7448 | recall : 0.9633 | auc : 0.9794
+INFO:root:-- val --  val_loss : 0.2902, accuracy : 0.8972 | f1 : 0.7956 | pre : 0.6606 | recall : 1.0000 | auc : 0.9653
+INFO:root:Early stop process : 18 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 2 epoch 36
+INFO:root:== best AUC : 0.9789255401234568 in fold 2 epoch 36
+INFO:root:🟢 fold 2 epoch 46
+INFO:root:-- train -- loss : 0.2641 | accuracy : 0.9187 | f1 : 0.8340 | pre : 0.7259 | recall : 0.9800 | auc : 0.9779
+INFO:root:-- val --  val_loss : 0.1543, accuracy : 0.9667 | f1 : 0.9211 | pre : 0.8750 | recall : 0.9722 | auc : 0.9811
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9666666666666667
+INFO:root:✅ get better auc 0.9810956790123456
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 47
+INFO:root:-- train -- loss : 0.2410 | accuracy : 0.9243 | f1 : 0.8423 | pre : 0.7442 | recall : 0.9700 | auc : 0.9792
+INFO:root:-- val --  val_loss : 0.1982, accuracy : 0.9361 | f1 : 0.8589 | pre : 0.7692 | recall : 0.9722 | auc : 0.9783
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 48
+INFO:root:-- train -- loss : 0.2055 | accuracy : 0.9306 | f1 : 0.8529 | pre : 0.7632 | recall : 0.9667 | auc : 0.9839
+INFO:root:-- val --  val_loss : 0.3020, accuracy : 0.8889 | f1 : 0.7826 | pre : 0.6429 | recall : 1.0000 | auc : 0.9784
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 49
+INFO:root:-- train -- loss : 0.1716 | accuracy : 0.9437 | f1 : 0.8796 | pre : 0.7936 | recall : 0.9867 | auc : 0.9879
+INFO:root:-- val --  val_loss : 0.1816, accuracy : 0.9444 | f1 : 0.8765 | pre : 0.7889 | recall : 0.9861 | auc : 0.9759
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 50
+INFO:root:-- train -- loss : 0.2329 | accuracy : 0.9285 | f1 : 0.8501 | pre : 0.7545 | recall : 0.9733 | auc : 0.9783
+INFO:root:-- val --  val_loss : 0.4581, accuracy : 0.9528 | f1 : 0.8844 | pre : 0.8667 | recall : 0.9028 | auc : 0.9743
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 51
+INFO:root:-- train -- loss : 0.1968 | accuracy : 0.9431 | f1 : 0.8780 | pre : 0.7930 | recall : 0.9833 | auc : 0.9846
+INFO:root:-- val --  val_loss : 0.2092, accuracy : 0.9528 | f1 : 0.8931 | pre : 0.8161 | recall : 0.9861 | auc : 0.9738
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 52
+INFO:root:-- train -- loss : 0.1701 | accuracy : 0.9479 | f1 : 0.8872 | pre : 0.8082 | recall : 0.9833 | auc : 0.9884
+INFO:root:-- val --  val_loss : 0.1929, accuracy : 0.9583 | f1 : 0.9007 | pre : 0.8608 | recall : 0.9444 | auc : 0.9750
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 53
+INFO:root:-- train -- loss : 0.1700 | accuracy : 0.9451 | f1 : 0.8826 | pre : 0.7962 | recall : 0.9900 | auc : 0.9874
+INFO:root:-- val --  val_loss : 0.2283, accuracy : 0.9194 | f1 : 0.8324 | pre : 0.7129 | recall : 1.0000 | auc : 0.9783
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 54
+INFO:root:-- train -- loss : 0.2440 | accuracy : 0.9215 | f1 : 0.8393 | pre : 0.7320 | recall : 0.9833 | auc : 0.9749
+INFO:root:-- val --  val_loss : 0.2685, accuracy : 0.9639 | f1 : 0.9139 | pre : 0.8734 | recall : 0.9583 | auc : 0.9775
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 55
+INFO:root:-- train -- loss : 0.1930 | accuracy : 0.9368 | f1 : 0.8652 | pre : 0.7787 | recall : 0.9733 | auc : 0.9853
+INFO:root:-- val --  val_loss : 0.2326, accuracy : 0.9667 | f1 : 0.9211 | pre : 0.8750 | recall : 0.9722 | auc : 0.9773
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 56
+INFO:root:-- train -- loss : 0.1515 | accuracy : 0.9549 | f1 : 0.8998 | pre : 0.8367 | recall : 0.9733 | auc : 0.9891
+INFO:root:-- val --  val_loss : 0.2917, accuracy : 0.9194 | f1 : 0.8304 | pre : 0.7172 | recall : 0.9861 | auc : 0.9759
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 57
+INFO:root:-- train -- loss : 0.2057 | accuracy : 0.9361 | f1 : 0.8651 | pre : 0.7723 | recall : 0.9833 | auc : 0.9863
+INFO:root:-- val --  val_loss : 0.9867, accuracy : 0.5889 | f1 : 0.4932 | pre : 0.3273 | recall : 1.0000 | auc : 0.9429
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 58
+INFO:root:-- train -- loss : 0.1489 | accuracy : 0.9542 | f1 : 0.8997 | pre : 0.8268 | recall : 0.9867 | auc : 0.9902
+INFO:root:-- val --  val_loss : 0.2838, accuracy : 0.9583 | f1 : 0.8993 | pre : 0.8701 | recall : 0.9306 | auc : 0.9791
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 59
+INFO:root:-- train -- loss : 0.1761 | accuracy : 0.9514 | f1 : 0.8939 | pre : 0.8194 | recall : 0.9833 | auc : 0.9864
+INFO:root:-- val --  val_loss : 0.2015, accuracy : 0.9639 | f1 : 0.9150 | pre : 0.8642 | recall : 0.9722 | auc : 0.9778
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 60
+INFO:root:-- train -- loss : 0.2364 | accuracy : 0.9118 | f1 : 0.8199 | pre : 0.7136 | recall : 0.9633 | auc : 0.9836
+INFO:root:-- val --  val_loss : 0.2077, accuracy : 0.9472 | f1 : 0.8820 | pre : 0.7978 | recall : 0.9861 | auc : 0.9752
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 61
+INFO:root:-- train -- loss : 0.1893 | accuracy : 0.9451 | f1 : 0.8819 | pre : 0.7995 | recall : 0.9833 | auc : 0.9877
+INFO:root:-- val --  val_loss : 0.1731, accuracy : 0.9639 | f1 : 0.9161 | pre : 0.8554 | recall : 0.9861 | auc : 0.9785
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 62
+INFO:root:-- train -- loss : 0.2178 | accuracy : 0.9382 | f1 : 0.8681 | pre : 0.7813 | recall : 0.9767 | auc : 0.9837
+INFO:root:-- val --  val_loss : 0.9709, accuracy : 0.6056 | f1 : 0.5035 | pre : 0.3364 | recall : 1.0000 | auc : 0.9470
+INFO:root:Early stop process : 16 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 63
+INFO:root:-- train -- loss : 0.1662 | accuracy : 0.9479 | f1 : 0.8876 | pre : 0.8065 | recall : 0.9867 | auc : 0.9879
+INFO:root:-- val --  val_loss : 0.1844, accuracy : 0.9472 | f1 : 0.8834 | pre : 0.7912 | recall : 1.0000 | auc : 0.9785
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 64
+INFO:root:-- train -- loss : 0.1635 | accuracy : 0.9521 | f1 : 0.8959 | pre : 0.8182 | recall : 0.9900 | auc : 0.9870
+INFO:root:-- val --  val_loss : 0.2038, accuracy : 0.9417 | f1 : 0.8712 | pre : 0.7802 | recall : 0.9861 | auc : 0.9708
+INFO:root:Early stop process : 18 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 65
+INFO:root:-- train -- loss : 0.1796 | accuracy : 0.9493 | f1 : 0.8896 | pre : 0.8144 | recall : 0.9800 | auc : 0.9845
+INFO:root:-- val --  val_loss : 0.2465, accuracy : 0.9111 | f1 : 0.8161 | pre : 0.6961 | recall : 0.9861 | auc : 0.9753
+INFO:root:Early stop process : 19 / 20
+INFO:root:== best accuracy : 0.9666666666666667 in fold 2 epoch 46
+INFO:root:== best AUC : 0.9810956790123456 in fold 2 epoch 46
+INFO:root:🟢 fold 2 epoch 66
+INFO:root:-- train -- loss : 0.1189 | accuracy : 0.9625 | f1 : 0.9164 | pre : 0.8555 | recall : 0.9867 | auc : 0.9928
+INFO:root:-- val --  val_loss : 0.1694, accuracy : 0.9500 | f1 : 0.8875 | pre : 0.8068 | recall : 0.9861 | auc : 0.9792
+INFO:root:Early stop ! 
+INFO:root:👉 FOLD 3
+INFO:root:Loading 12 blocks for each person
+INFO:root:🟢 fold 3 epoch 0
+INFO:root:-- train -- loss : 0.9230 | accuracy : 0.5292 | f1 : 0.4205 | pre : 0.2828 | recall : 0.8200 | auc : 0.6736
+INFO:root:-- val --  val_loss : 0.6992, accuracy : 0.9028 | f1 : 0.7586 | pre : 0.7534 | recall : 0.7639 | auc : 0.9622
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9027777777777778
+INFO:root:✅ get better auc 0.9622395833333334
+INFO:root:== best accuracy : 0.9027777777777778 in fold 3 epoch 0
+INFO:root:== best AUC : 0.9622395833333334 in fold 3 epoch 0
+INFO:root:🟢 fold 3 epoch 1
+INFO:root:-- train -- loss : 0.6769 | accuracy : 0.7729 | f1 : 0.6202 | pre : 0.4759 | recall : 0.8900 | auc : 0.8879
+INFO:root:-- val --  val_loss : 0.7310, accuracy : 0.8833 | f1 : 0.5962 | pre : 0.9688 | recall : 0.4306 | auc : 0.9904
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better auc 0.9904031635802468
+INFO:root:== best accuracy : 0.9027777777777778 in fold 3 epoch 0
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 0
+INFO:root:🟢 fold 3 epoch 2
+INFO:root:-- train -- loss : 0.6235 | accuracy : 0.8028 | f1 : 0.6459 | pre : 0.5159 | recall : 0.8633 | auc : 0.8989
+INFO:root:-- val --  val_loss : 2.6151, accuracy : 0.2000 | f1 : 0.3333 | pre : 0.2000 | recall : 1.0000 | auc : 0.5143
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9027777777777778 in fold 3 epoch 0
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 0
+INFO:root:🟢 fold 3 epoch 3
+INFO:root:-- train -- loss : 0.6046 | accuracy : 0.7833 | f1 : 0.6303 | pre : 0.4890 | recall : 0.8867 | auc : 0.9008
+INFO:root:-- val --  val_loss : 0.5826, accuracy : 0.7444 | f1 : 0.6102 | pre : 0.4390 | recall : 1.0000 | auc : 0.9563
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9027777777777778 in fold 3 epoch 0
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 0
+INFO:root:🟢 fold 3 epoch 4
+INFO:root:-- train -- loss : 0.5418 | accuracy : 0.8194 | f1 : 0.6758 | pre : 0.5398 | recall : 0.9033 | auc : 0.9218
+INFO:root:-- val --  val_loss : 1.0907, accuracy : 0.3194 | f1 : 0.3702 | pre : 0.2271 | recall : 1.0000 | auc : 0.9223
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9027777777777778 in fold 3 epoch 0
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 0
+INFO:root:🟢 fold 3 epoch 5
+INFO:root:-- train -- loss : 0.4858 | accuracy : 0.8326 | f1 : 0.6930 | pre : 0.5608 | recall : 0.9067 | auc : 0.9325
+INFO:root:-- val --  val_loss : 0.2567, accuracy : 0.9472 | f1 : 0.8820 | pre : 0.7978 | recall : 0.9861 | auc : 0.9862
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.9472222222222222
+INFO:root:== best accuracy : 0.9472222222222222 in fold 3 epoch 5
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 5
+INFO:root:🟢 fold 3 epoch 6
+INFO:root:-- train -- loss : 0.5042 | accuracy : 0.8181 | f1 : 0.6749 | pre : 0.5375 | recall : 0.9067 | auc : 0.9251
+INFO:root:-- val --  val_loss : 1.9376, accuracy : 0.2000 | f1 : 0.3333 | pre : 0.2000 | recall : 1.0000 | auc : 0.7836
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9472222222222222 in fold 3 epoch 5
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 5
+INFO:root:🟢 fold 3 epoch 7
+INFO:root:-- train -- loss : 0.4878 | accuracy : 0.8507 | f1 : 0.7190 | pre : 0.5914 | recall : 0.9167 | auc : 0.9317
+INFO:root:-- val --  val_loss : 0.3683, accuracy : 0.8611 | f1 : 0.7396 | pre : 0.5917 | recall : 0.9861 | auc : 0.9578
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9472222222222222 in fold 3 epoch 5
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 5
+INFO:root:🟢 fold 3 epoch 8
+INFO:root:-- train -- loss : 0.4674 | accuracy : 0.8396 | f1 : 0.7072 | pre : 0.5706 | recall : 0.9300 | auc : 0.9324
+INFO:root:-- val --  val_loss : 0.2214, accuracy : 0.9472 | f1 : 0.8834 | pre : 0.7912 | recall : 1.0000 | auc : 0.9875
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9472222222222222 in fold 3 epoch 5
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 5
+INFO:root:🟢 fold 3 epoch 9
+INFO:root:-- train -- loss : 0.4569 | accuracy : 0.8431 | f1 : 0.7110 | pre : 0.5768 | recall : 0.9267 | auc : 0.9373
+INFO:root:-- val --  val_loss : 0.2836, accuracy : 0.9111 | f1 : 0.8182 | pre : 0.6923 | recall : 1.0000 | auc : 0.9699
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9472222222222222 in fold 3 epoch 5
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 5
+INFO:root:🟢 fold 3 epoch 10
+INFO:root:-- train -- loss : 0.4422 | accuracy : 0.8597 | f1 : 0.7349 | pre : 0.6061 | recall : 0.9333 | auc : 0.9392
+INFO:root:-- val --  val_loss : 0.2834, accuracy : 0.9111 | f1 : 0.8182 | pre : 0.6923 | recall : 1.0000 | auc : 0.9705
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9472222222222222 in fold 3 epoch 5
+INFO:root:== best AUC : 0.9904031635802468 in fold 3 epoch 5
+INFO:root:🟢 fold 3 epoch 11
+INFO:root:-- train -- loss : 0.4371 | accuracy : 0.8625 | f1 : 0.7408 | pre : 0.6099 | recall : 0.9433 | auc : 0.9442
+INFO:root:-- val --  val_loss : 0.3637, accuracy : 0.9556 | f1 : 0.8769 | pre : 0.9828 | recall : 0.7917 | auc : 0.9945
+INFO:root:Early stop process : 3 / 20
+INFO:root:✅ get better accuracy 0.9555555555555556
+INFO:root:✅ get better auc 0.9944540895061728
+INFO:root:== best accuracy : 0.9555555555555556 in fold 3 epoch 11
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 11
+INFO:root:🟢 fold 3 epoch 12
+INFO:root:-- train -- loss : 0.4345 | accuracy : 0.8583 | f1 : 0.7316 | pre : 0.6043 | recall : 0.9267 | auc : 0.9456
+INFO:root:-- val --  val_loss : 0.6996, accuracy : 0.6028 | f1 : 0.5017 | pre : 0.3349 | recall : 1.0000 | auc : 0.9480
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 3 epoch 11
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 11
+INFO:root:🟢 fold 3 epoch 13
+INFO:root:-- train -- loss : 0.3890 | accuracy : 0.8757 | f1 : 0.7610 | pre : 0.6347 | recall : 0.9500 | auc : 0.9533
+INFO:root:-- val --  val_loss : 0.3213, accuracy : 0.9056 | f1 : 0.8090 | pre : 0.6792 | recall : 1.0000 | auc : 0.9779
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 3 epoch 11
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 11
+INFO:root:🟢 fold 3 epoch 14
+INFO:root:-- train -- loss : 0.3655 | accuracy : 0.8861 | f1 : 0.7760 | pre : 0.6574 | recall : 0.9467 | auc : 0.9540
+INFO:root:-- val --  val_loss : 1.7808, accuracy : 0.2444 | f1 : 0.3462 | pre : 0.2093 | recall : 1.0000 | auc : 0.8408
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 3 epoch 11
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 11
+INFO:root:🟢 fold 3 epoch 15
+INFO:root:-- train -- loss : 0.3587 | accuracy : 0.8778 | f1 : 0.7647 | pre : 0.6384 | recall : 0.9533 | auc : 0.9557
+INFO:root:-- val --  val_loss : 0.2134, accuracy : 0.9556 | f1 : 0.8987 | pre : 0.8256 | recall : 0.9861 | auc : 0.9912
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 3 epoch 11
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 11
+INFO:root:🟢 fold 3 epoch 16
+INFO:root:-- train -- loss : 0.3448 | accuracy : 0.8917 | f1 : 0.7851 | pre : 0.6690 | recall : 0.9500 | auc : 0.9541
+INFO:root:-- val --  val_loss : 0.3354, accuracy : 0.9333 | f1 : 0.8462 | pre : 0.7857 | recall : 0.9167 | auc : 0.9719
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 3 epoch 11
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 11
+INFO:root:🟢 fold 3 epoch 17
+INFO:root:-- train -- loss : 0.3832 | accuracy : 0.8694 | f1 : 0.7533 | pre : 0.6212 | recall : 0.9567 | auc : 0.9530
+INFO:root:-- val --  val_loss : 0.4038, accuracy : 0.9472 | f1 : 0.8725 | pre : 0.8442 | recall : 0.9028 | auc : 0.9798
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9555555555555556 in fold 3 epoch 11
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 11
+INFO:root:🟢 fold 3 epoch 18
+INFO:root:-- train -- loss : 0.4010 | accuracy : 0.8764 | f1 : 0.7601 | pre : 0.6380 | recall : 0.9400 | auc : 0.9501
+INFO:root:-- val --  val_loss : 0.1962, accuracy : 0.9750 | f1 : 0.9379 | pre : 0.9315 | recall : 0.9444 | auc : 0.9942
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.975
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 19
+INFO:root:-- train -- loss : 0.3501 | accuracy : 0.8951 | f1 : 0.7900 | pre : 0.6778 | recall : 0.9467 | auc : 0.9533
+INFO:root:-- val --  val_loss : 0.2736, accuracy : 0.9139 | f1 : 0.8229 | pre : 0.6990 | recall : 1.0000 | auc : 0.9732
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 20
+INFO:root:-- train -- loss : 0.3301 | accuracy : 0.8951 | f1 : 0.7929 | pre : 0.6737 | recall : 0.9633 | auc : 0.9598
+INFO:root:-- val --  val_loss : 0.2280, accuracy : 0.9194 | f1 : 0.8304 | pre : 0.7172 | recall : 0.9861 | auc : 0.9909
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 21
+INFO:root:-- train -- loss : 0.3339 | accuracy : 0.8965 | f1 : 0.7950 | pre : 0.6768 | recall : 0.9633 | auc : 0.9617
+INFO:root:-- val --  val_loss : 1.8560, accuracy : 0.2500 | f1 : 0.3478 | pre : 0.2105 | recall : 1.0000 | auc : 0.8383
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 22
+INFO:root:-- train -- loss : 0.3133 | accuracy : 0.8896 | f1 : 0.7837 | pre : 0.6621 | recall : 0.9600 | auc : 0.9593
+INFO:root:-- val --  val_loss : 0.2499, accuracy : 0.9306 | f1 : 0.8466 | pre : 0.7582 | recall : 0.9583 | auc : 0.9813
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 23
+INFO:root:-- train -- loss : 0.3208 | accuracy : 0.8951 | f1 : 0.7911 | pre : 0.6761 | recall : 0.9533 | auc : 0.9630
+INFO:root:-- val --  val_loss : 0.2579, accuracy : 0.9056 | f1 : 0.8090 | pre : 0.6792 | recall : 1.0000 | auc : 0.9810
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 24
+INFO:root:-- train -- loss : 0.2959 | accuracy : 0.9125 | f1 : 0.8210 | pre : 0.7153 | recall : 0.9633 | auc : 0.9666
+INFO:root:-- val --  val_loss : 0.2659, accuracy : 0.9306 | f1 : 0.8428 | pre : 0.7701 | recall : 0.9306 | auc : 0.9765
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 25
+INFO:root:-- train -- loss : 0.2963 | accuracy : 0.9069 | f1 : 0.8128 | pre : 0.6995 | recall : 0.9700 | auc : 0.9662
+INFO:root:-- val --  val_loss : 0.6603, accuracy : 0.9361 | f1 : 0.8392 | pre : 0.8451 | recall : 0.8333 | auc : 0.9733
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 26
+INFO:root:-- train -- loss : 0.3431 | accuracy : 0.8750 | f1 : 0.7625 | pre : 0.6310 | recall : 0.9633 | auc : 0.9574
+INFO:root:-- val --  val_loss : 0.2412, accuracy : 0.9389 | f1 : 0.8590 | pre : 0.7976 | recall : 0.9306 | auc : 0.9858
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 27
+INFO:root:-- train -- loss : 0.3609 | accuracy : 0.8840 | f1 : 0.7728 | pre : 0.6529 | recall : 0.9467 | auc : 0.9574
+INFO:root:-- val --  val_loss : 0.2746, accuracy : 0.9583 | f1 : 0.8980 | pre : 0.8800 | recall : 0.9167 | auc : 0.9891
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 28
+INFO:root:-- train -- loss : 0.3286 | accuracy : 0.8986 | f1 : 0.7967 | pre : 0.6842 | recall : 0.9533 | auc : 0.9649
+INFO:root:-- val --  val_loss : 0.3563, accuracy : 0.9056 | f1 : 0.7976 | pre : 0.6979 | recall : 0.9306 | auc : 0.9701
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 29
+INFO:root:-- train -- loss : 0.3228 | accuracy : 0.8951 | f1 : 0.7940 | pre : 0.6721 | recall : 0.9700 | auc : 0.9645
+INFO:root:-- val --  val_loss : 0.2926, accuracy : 0.9028 | f1 : 0.8045 | pre : 0.6729 | recall : 1.0000 | auc : 0.9851
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 30
+INFO:root:-- train -- loss : 0.2944 | accuracy : 0.9083 | f1 : 0.8130 | pre : 0.7069 | recall : 0.9567 | auc : 0.9690
+INFO:root:-- val --  val_loss : 0.4143, accuracy : 0.7944 | f1 : 0.6606 | pre : 0.4932 | recall : 1.0000 | auc : 0.9681
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 31
+INFO:root:-- train -- loss : 0.2718 | accuracy : 0.9076 | f1 : 0.8145 | pre : 0.7002 | recall : 0.9733 | auc : 0.9731
+INFO:root:-- val --  val_loss : 0.2686, accuracy : 0.8806 | f1 : 0.7701 | pre : 0.6261 | recall : 1.0000 | auc : 0.9779
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 32
+INFO:root:-- train -- loss : 0.2591 | accuracy : 0.9174 | f1 : 0.8307 | pre : 0.7246 | recall : 0.9733 | auc : 0.9702
+INFO:root:-- val --  val_loss : 0.2424, accuracy : 0.9361 | f1 : 0.8589 | pre : 0.7692 | recall : 0.9722 | auc : 0.9858
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 33
+INFO:root:-- train -- loss : 0.2638 | accuracy : 0.9194 | f1 : 0.8348 | pre : 0.7289 | recall : 0.9767 | auc : 0.9699
+INFO:root:-- val --  val_loss : 0.2699, accuracy : 0.9194 | f1 : 0.8221 | pre : 0.7363 | recall : 0.9306 | auc : 0.9763
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 34
+INFO:root:-- train -- loss : 0.2746 | accuracy : 0.9146 | f1 : 0.8240 | pre : 0.7218 | recall : 0.9600 | auc : 0.9680
+INFO:root:-- val --  val_loss : 1.7830, accuracy : 0.2694 | f1 : 0.3538 | pre : 0.2149 | recall : 1.0000 | auc : 0.8869
+INFO:root:Early stop process : 16 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 35
+INFO:root:-- train -- loss : 0.2781 | accuracy : 0.9125 | f1 : 0.8225 | pre : 0.7122 | recall : 0.9733 | auc : 0.9691
+INFO:root:-- val --  val_loss : 0.3644, accuracy : 0.9639 | f1 : 0.9091 | pre : 0.9155 | recall : 0.9028 | auc : 0.9885
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 36
+INFO:root:-- train -- loss : 0.2582 | accuracy : 0.9181 | f1 : 0.8314 | pre : 0.7275 | recall : 0.9700 | auc : 0.9720
+INFO:root:-- val --  val_loss : 0.1688, accuracy : 0.9611 | f1 : 0.9091 | pre : 0.8537 | recall : 0.9722 | auc : 0.9926
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 37
+INFO:root:-- train -- loss : 0.2650 | accuracy : 0.9097 | f1 : 0.8179 | pre : 0.7053 | recall : 0.9733 | auc : 0.9738
+INFO:root:-- val --  val_loss : 1.5757, accuracy : 0.9306 | f1 : 0.7899 | pre : 1.0000 | recall : 0.6528 | auc : 0.9839
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 38
+INFO:root:-- train -- loss : 0.2419 | accuracy : 0.9215 | f1 : 0.8383 | pre : 0.7343 | recall : 0.9767 | auc : 0.9742
+INFO:root:-- val --  val_loss : 0.4805, accuracy : 0.9528 | f1 : 0.8828 | pre : 0.8767 | recall : 0.8889 | auc : 0.9837
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 39
+INFO:root:-- train -- loss : 0.3269 | accuracy : 0.9104 | f1 : 0.8196 | pre : 0.7060 | recall : 0.9767 | auc : 0.9636
+INFO:root:-- val --  val_loss : 1.9271, accuracy : 0.2028 | f1 : 0.3341 | pre : 0.2006 | recall : 1.0000 | auc : 0.7417
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 40
+INFO:root:-- train -- loss : 0.2794 | accuracy : 0.9097 | f1 : 0.8174 | pre : 0.7063 | recall : 0.9700 | auc : 0.9726
+INFO:root:-- val --  val_loss : 0.3624, accuracy : 0.8444 | f1 : 0.7200 | pre : 0.5625 | recall : 1.0000 | auc : 0.9802
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 41
+INFO:root:-- train -- loss : 0.3662 | accuracy : 0.8868 | f1 : 0.7806 | pre : 0.6546 | recall : 0.9667 | auc : 0.9555
+INFO:root:-- val --  val_loss : 2.1962, accuracy : 0.2611 | f1 : 0.3512 | pre : 0.2130 | recall : 1.0000 | auc : 0.4813
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9944540895061728 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 42
+INFO:root:-- train -- loss : 0.4005 | accuracy : 0.8653 | f1 : 0.7487 | pre : 0.6123 | recall : 0.9633 | auc : 0.9506
+INFO:root:-- val --  val_loss : 0.1620, accuracy : 0.9500 | f1 : 0.8889 | pre : 0.8000 | recall : 1.0000 | auc : 0.9947
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9947434413580246
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9947434413580246 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 43
+INFO:root:-- train -- loss : 0.2858 | accuracy : 0.9069 | f1 : 0.8128 | pre : 0.6995 | recall : 0.9700 | auc : 0.9686
+INFO:root:-- val --  val_loss : 1.5547, accuracy : 0.3139 | f1 : 0.3683 | pre : 0.2257 | recall : 1.0000 | auc : 0.8730
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9947434413580246 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 44
+INFO:root:-- train -- loss : 0.2326 | accuracy : 0.9181 | f1 : 0.8329 | pre : 0.7241 | recall : 0.9800 | auc : 0.9741
+INFO:root:-- val --  val_loss : 0.2207, accuracy : 0.9167 | f1 : 0.8276 | pre : 0.7059 | recall : 1.0000 | auc : 0.9859
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9947434413580246 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 45
+INFO:root:-- train -- loss : 0.2927 | accuracy : 0.9000 | f1 : 0.8000 | pre : 0.6857 | recall : 0.9600 | auc : 0.9677
+INFO:root:-- val --  val_loss : 2.8314, accuracy : 0.8583 | f1 : 0.4516 | pre : 1.0000 | recall : 0.2917 | auc : 0.9897
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9947434413580246 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 46
+INFO:root:-- train -- loss : 0.2103 | accuracy : 0.9340 | f1 : 0.8613 | pre : 0.7662 | recall : 0.9833 | auc : 0.9813
+INFO:root:-- val --  val_loss : 0.2968, accuracy : 0.8806 | f1 : 0.7701 | pre : 0.6261 | recall : 1.0000 | auc : 0.9865
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9947434413580246 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 47
+INFO:root:-- train -- loss : 0.2443 | accuracy : 0.9208 | f1 : 0.8367 | pre : 0.7337 | recall : 0.9733 | auc : 0.9723
+INFO:root:-- val --  val_loss : 0.1654, accuracy : 0.9556 | f1 : 0.8974 | pre : 0.8333 | recall : 0.9722 | auc : 0.9932
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9947434413580246 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 48
+INFO:root:-- train -- loss : 0.2024 | accuracy : 0.9333 | f1 : 0.8588 | pre : 0.7684 | recall : 0.9733 | auc : 0.9788
+INFO:root:-- val --  val_loss : 0.3347, accuracy : 0.9722 | f1 : 0.9286 | pre : 0.9559 | recall : 0.9028 | auc : 0.9957
+INFO:root:Early stop process : 6 / 20
+INFO:root:✅ get better auc 0.9956597222222222
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9956597222222222 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 49
+INFO:root:-- train -- loss : 0.2263 | accuracy : 0.9243 | f1 : 0.8423 | pre : 0.7442 | recall : 0.9700 | auc : 0.9761
+INFO:root:-- val --  val_loss : 1.9445, accuracy : 0.2250 | f1 : 0.3404 | pre : 0.2051 | recall : 1.0000 | auc : 0.5355
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9956597222222222 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 50
+INFO:root:-- train -- loss : 0.2016 | accuracy : 0.9389 | f1 : 0.8690 | pre : 0.7849 | recall : 0.9733 | auc : 0.9789
+INFO:root:-- val --  val_loss : 0.7209, accuracy : 0.6194 | f1 : 0.5125 | pre : 0.3445 | recall : 1.0000 | auc : 0.9539
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.975 in fold 3 epoch 18
+INFO:root:== best AUC : 0.9956597222222222 in fold 3 epoch 18
+INFO:root:🟢 fold 3 epoch 51
+INFO:root:-- train -- loss : 0.2689 | accuracy : 0.9132 | f1 : 0.8232 | pre : 0.7150 | recall : 0.9700 | auc : 0.9721
+INFO:root:-- val --  val_loss : 0.1915, accuracy : 0.9806 | f1 : 0.9489 | pre : 1.0000 | recall : 0.9028 | auc : 0.9986
+INFO:root:Early stop process : 9 / 20
+INFO:root:✅ get better accuracy 0.9805555555555555
+INFO:root:✅ get better auc 0.9985532407407408
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 52
+INFO:root:-- train -- loss : 0.2042 | accuracy : 0.9361 | f1 : 0.8651 | pre : 0.7723 | recall : 0.9833 | auc : 0.9814
+INFO:root:-- val --  val_loss : 0.2171, accuracy : 0.9056 | f1 : 0.8090 | pre : 0.6792 | recall : 1.0000 | auc : 0.9919
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 53
+INFO:root:-- train -- loss : 0.1987 | accuracy : 0.9368 | f1 : 0.8652 | pre : 0.7787 | recall : 0.9733 | auc : 0.9782
+INFO:root:-- val --  val_loss : 0.2777, accuracy : 0.8889 | f1 : 0.7826 | pre : 0.6429 | recall : 1.0000 | auc : 0.9924
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 54
+INFO:root:-- train -- loss : 0.2427 | accuracy : 0.9146 | f1 : 0.8255 | pre : 0.7185 | recall : 0.9700 | auc : 0.9758
+INFO:root:-- val --  val_loss : 0.1004, accuracy : 0.9694 | f1 : 0.9290 | pre : 0.8675 | recall : 1.0000 | auc : 0.9976
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 55
+INFO:root:-- train -- loss : 0.2171 | accuracy : 0.9354 | f1 : 0.8634 | pre : 0.7717 | recall : 0.9800 | auc : 0.9788
+INFO:root:-- val --  val_loss : 0.1784, accuracy : 0.9639 | f1 : 0.9103 | pre : 0.9041 | recall : 0.9167 | auc : 0.9960
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 56
+INFO:root:-- train -- loss : 0.1873 | accuracy : 0.9340 | f1 : 0.8617 | pre : 0.7649 | recall : 0.9867 | auc : 0.9813
+INFO:root:-- val --  val_loss : 0.2308, accuracy : 0.9694 | f1 : 0.9209 | pre : 0.9552 | recall : 0.8889 | auc : 0.9964
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 57
+INFO:root:-- train -- loss : 0.1947 | accuracy : 0.9347 | f1 : 0.8618 | pre : 0.7711 | recall : 0.9767 | auc : 0.9798
+INFO:root:-- val --  val_loss : 0.1377, accuracy : 0.9444 | f1 : 0.8780 | pre : 0.7826 | recall : 1.0000 | auc : 0.9969
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 58
+INFO:root:-- train -- loss : 0.1742 | accuracy : 0.9444 | f1 : 0.8820 | pre : 0.7910 | recall : 0.9967 | auc : 0.9848
+INFO:root:-- val --  val_loss : 0.1116, accuracy : 0.9583 | f1 : 0.9057 | pre : 0.8276 | recall : 1.0000 | auc : 0.9913
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 59
+INFO:root:-- train -- loss : 0.1795 | accuracy : 0.9424 | f1 : 0.8770 | pre : 0.7893 | recall : 0.9867 | auc : 0.9839
+INFO:root:-- val --  val_loss : 0.2527, accuracy : 0.9694 | f1 : 0.9220 | pre : 0.9420 | recall : 0.9028 | auc : 0.9945
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 60
+INFO:root:-- train -- loss : 0.1741 | accuracy : 0.9472 | f1 : 0.8862 | pre : 0.8043 | recall : 0.9867 | auc : 0.9845
+INFO:root:-- val --  val_loss : 0.1260, accuracy : 0.9639 | f1 : 0.9172 | pre : 0.8471 | recall : 1.0000 | auc : 0.9958
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 61
+INFO:root:-- train -- loss : 0.1546 | accuracy : 0.9521 | f1 : 0.8962 | pre : 0.8164 | recall : 0.9933 | auc : 0.9856
+INFO:root:-- val --  val_loss : 0.0849, accuracy : 0.9778 | f1 : 0.9474 | pre : 0.9000 | recall : 1.0000 | auc : 0.9986
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 62
+INFO:root:-- train -- loss : 0.1851 | accuracy : 0.9451 | f1 : 0.8823 | pre : 0.7978 | recall : 0.9867 | auc : 0.9853
+INFO:root:-- val --  val_loss : 0.2299, accuracy : 0.9583 | f1 : 0.8980 | pre : 0.8800 | recall : 0.9167 | auc : 0.9946
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9985532407407408 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 63
+INFO:root:-- train -- loss : 0.1780 | accuracy : 0.9396 | f1 : 0.8703 | pre : 0.7871 | recall : 0.9733 | auc : 0.9851
+INFO:root:-- val --  val_loss : 0.4116, accuracy : 0.7750 | f1 : 0.6400 | pre : 0.4706 | recall : 1.0000 | auc : 0.9990
+INFO:root:Early stop process : 2 / 20
+INFO:root:✅ get better auc 0.9989872685185186
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 64
+INFO:root:-- train -- loss : 0.1973 | accuracy : 0.9389 | f1 : 0.8706 | pre : 0.7789 | recall : 0.9867 | auc : 0.9802
+INFO:root:-- val --  val_loss : 3.3146, accuracy : 0.2028 | f1 : 0.3341 | pre : 0.2006 | recall : 1.0000 | auc : 0.6153
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 65
+INFO:root:-- train -- loss : 0.1849 | accuracy : 0.9347 | f1 : 0.8626 | pre : 0.7682 | recall : 0.9833 | auc : 0.9805
+INFO:root:-- val --  val_loss : 0.1205, accuracy : 0.9611 | f1 : 0.9114 | pre : 0.8372 | recall : 1.0000 | auc : 0.9958
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 66
+INFO:root:-- train -- loss : 0.1579 | accuracy : 0.9458 | f1 : 0.8843 | pre : 0.7968 | recall : 0.9933 | auc : 0.9844
+INFO:root:-- val --  val_loss : 0.2354, accuracy : 0.8972 | f1 : 0.7956 | pre : 0.6606 | recall : 1.0000 | auc : 0.9891
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 67
+INFO:root:-- train -- loss : 0.1679 | accuracy : 0.9465 | f1 : 0.8842 | pre : 0.8055 | recall : 0.9800 | auc : 0.9850
+INFO:root:-- val --  val_loss : 0.5082, accuracy : 0.9750 | f1 : 0.9333 | pre : 1.0000 | recall : 0.8750 | auc : 0.9977
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 68
+INFO:root:-- train -- loss : 0.1482 | accuracy : 0.9514 | f1 : 0.8946 | pre : 0.8159 | recall : 0.9900 | auc : 0.9877
+INFO:root:-- val --  val_loss : 0.2131, accuracy : 0.9778 | f1 : 0.9420 | pre : 0.9848 | recall : 0.9028 | auc : 0.9984
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 69
+INFO:root:-- train -- loss : 0.1360 | accuracy : 0.9597 | f1 : 0.9113 | pre : 0.8418 | recall : 0.9933 | auc : 0.9890
+INFO:root:-- val --  val_loss : 0.1752, accuracy : 0.9694 | f1 : 0.9241 | pre : 0.9178 | recall : 0.9306 | auc : 0.9950
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 70
+INFO:root:-- train -- loss : 0.1401 | accuracy : 0.9590 | f1 : 0.9096 | pre : 0.8414 | recall : 0.9900 | auc : 0.9883
+INFO:root:-- val --  val_loss : 0.4147, accuracy : 0.8028 | f1 : 0.6698 | pre : 0.5035 | recall : 1.0000 | auc : 0.9741
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 71
+INFO:root:-- train -- loss : 0.1492 | accuracy : 0.9507 | f1 : 0.8929 | pre : 0.8154 | recall : 0.9867 | auc : 0.9858
+INFO:root:-- val --  val_loss : 0.1038, accuracy : 0.9722 | f1 : 0.9351 | pre : 0.8780 | recall : 1.0000 | auc : 0.9964
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 72
+INFO:root:-- train -- loss : 0.1486 | accuracy : 0.9479 | f1 : 0.8872 | pre : 0.8082 | recall : 0.9833 | auc : 0.9887
+INFO:root:-- val --  val_loss : 1.7933, accuracy : 0.9000 | f1 : 0.6667 | pre : 1.0000 | recall : 0.5000 | auc : 0.9949
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 73
+INFO:root:-- train -- loss : 0.1638 | accuracy : 0.9535 | f1 : 0.8980 | pre : 0.8263 | recall : 0.9833 | auc : 0.9861
+INFO:root:-- val --  val_loss : 0.2399, accuracy : 0.9083 | f1 : 0.8092 | pre : 0.6931 | recall : 0.9722 | auc : 0.9776
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 74
+INFO:root:-- train -- loss : 0.1471 | accuracy : 0.9500 | f1 : 0.8912 | pre : 0.8149 | recall : 0.9833 | auc : 0.9861
+INFO:root:-- val --  val_loss : 0.0703, accuracy : 0.9778 | f1 : 0.9474 | pre : 0.9000 | recall : 1.0000 | auc : 0.9986
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 75
+INFO:root:-- train -- loss : 0.1568 | accuracy : 0.9500 | f1 : 0.8912 | pre : 0.8149 | recall : 0.9833 | auc : 0.9871
+INFO:root:-- val --  val_loss : 0.1471, accuracy : 0.9500 | f1 : 0.8889 | pre : 0.8000 | recall : 1.0000 | auc : 0.9897
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 76
+INFO:root:-- train -- loss : 0.1568 | accuracy : 0.9521 | f1 : 0.8959 | pre : 0.8182 | recall : 0.9900 | auc : 0.9870
+INFO:root:-- val --  val_loss : 0.9044, accuracy : 0.9556 | f1 : 0.8750 | pre : 1.0000 | recall : 0.7778 | auc : 0.9966
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 77
+INFO:root:-- train -- loss : 0.1306 | accuracy : 0.9639 | f1 : 0.9193 | pre : 0.8605 | recall : 0.9867 | auc : 0.9894
+INFO:root:-- val --  val_loss : 0.1058, accuracy : 0.9722 | f1 : 0.9342 | pre : 0.8875 | recall : 0.9861 | auc : 0.9953
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 78
+INFO:root:-- train -- loss : 0.2131 | accuracy : 0.9382 | f1 : 0.8678 | pre : 0.7828 | recall : 0.9733 | auc : 0.9854
+INFO:root:-- val --  val_loss : 6.6707, accuracy : 0.8250 | f1 : 0.2222 | pre : 1.0000 | recall : 0.1250 | auc : 0.9715
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 79
+INFO:root:-- train -- loss : 0.1528 | accuracy : 0.9514 | f1 : 0.8946 | pre : 0.8159 | recall : 0.9900 | auc : 0.9883
+INFO:root:-- val --  val_loss : 0.5000, accuracy : 0.7972 | f1 : 0.6636 | pre : 0.4966 | recall : 1.0000 | auc : 0.9652
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 80
+INFO:root:-- train -- loss : 0.1509 | accuracy : 0.9514 | f1 : 0.8933 | pre : 0.8230 | recall : 0.9767 | auc : 0.9878
+INFO:root:-- val --  val_loss : 0.1345, accuracy : 0.9472 | f1 : 0.8834 | pre : 0.7912 | recall : 1.0000 | auc : 0.9949
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 81
+INFO:root:-- train -- loss : 0.1317 | accuracy : 0.9653 | f1 : 0.9226 | pre : 0.8613 | recall : 0.9933 | auc : 0.9890
+INFO:root:-- val --  val_loss : 0.1368, accuracy : 0.9444 | f1 : 0.8780 | pre : 0.7826 | recall : 1.0000 | auc : 0.9950
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 82
+INFO:root:-- train -- loss : 0.1077 | accuracy : 0.9729 | f1 : 0.9390 | pre : 0.8850 | recall : 1.0000 | auc : 0.9908
+INFO:root:-- val --  val_loss : 0.0816, accuracy : 0.9806 | f1 : 0.9530 | pre : 0.9221 | recall : 0.9861 | auc : 0.9967
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 83
+INFO:root:-- train -- loss : 0.2263 | accuracy : 0.9306 | f1 : 0.8529 | pre : 0.7632 | recall : 0.9667 | auc : 0.9795
+INFO:root:-- val --  val_loss : 3.3878, accuracy : 0.2000 | f1 : 0.3333 | pre : 0.2000 | recall : 1.0000 | auc : 0.6758
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 84
+INFO:root:-- train -- loss : 0.1702 | accuracy : 0.9521 | f1 : 0.8953 | pre : 0.8217 | recall : 0.9833 | auc : 0.9850
+INFO:root:-- val --  val_loss : 0.1224, accuracy : 0.9722 | f1 : 0.9324 | pre : 0.9079 | recall : 0.9583 | auc : 0.9934
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 85
+INFO:root:-- train -- loss : 0.1408 | accuracy : 0.9639 | f1 : 0.9193 | pre : 0.8605 | recall : 0.9867 | auc : 0.9894
+INFO:root:-- val --  val_loss : 3.1058, accuracy : 0.8444 | f1 : 0.3636 | pre : 1.0000 | recall : 0.2222 | auc : 0.9974
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 86
+INFO:root:-- train -- loss : 0.1729 | accuracy : 0.9389 | f1 : 0.8702 | pre : 0.7804 | recall : 0.9833 | auc : 0.9856
+INFO:root:-- val --  val_loss : 0.3975, accuracy : 0.9611 | f1 : 0.8955 | pre : 0.9677 | recall : 0.8333 | auc : 0.9952
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 87
+INFO:root:-- train -- loss : 0.1107 | accuracy : 0.9694 | f1 : 0.9313 | pre : 0.8765 | recall : 0.9933 | auc : 0.9915
+INFO:root:-- val --  val_loss : 0.1312, accuracy : 0.9500 | f1 : 0.8889 | pre : 0.8000 | recall : 1.0000 | auc : 0.9879
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 88
+INFO:root:-- train -- loss : 0.2226 | accuracy : 0.9403 | f1 : 0.8720 | pre : 0.7876 | recall : 0.9767 | auc : 0.9833
+INFO:root:-- val --  val_loss : 0.3610, accuracy : 0.8500 | f1 : 0.7273 | pre : 0.5714 | recall : 1.0000 | auc : 0.9750
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 89
+INFO:root:-- train -- loss : 0.1113 | accuracy : 0.9694 | f1 : 0.9313 | pre : 0.8765 | recall : 0.9933 | auc : 0.9917
+INFO:root:-- val --  val_loss : 0.1781, accuracy : 0.9306 | f1 : 0.8521 | pre : 0.7423 | recall : 1.0000 | auc : 0.9931
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 90
+INFO:root:-- train -- loss : 0.1254 | accuracy : 0.9674 | f1 : 0.9264 | pre : 0.8732 | recall : 0.9867 | auc : 0.9902
+INFO:root:-- val --  val_loss : 0.1500, accuracy : 0.9611 | f1 : 0.9103 | pre : 0.8452 | recall : 0.9861 | auc : 0.9898
+INFO:root:Early stop process : 16 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 91
+INFO:root:-- train -- loss : 0.1533 | accuracy : 0.9451 | f1 : 0.8823 | pre : 0.7978 | recall : 0.9867 | auc : 0.9879
+INFO:root:-- val --  val_loss : 0.1473, accuracy : 0.9472 | f1 : 0.8834 | pre : 0.7912 | recall : 1.0000 | auc : 0.9961
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 92
+INFO:root:-- train -- loss : 0.0924 | accuracy : 0.9750 | f1 : 0.9432 | pre : 0.8952 | recall : 0.9967 | auc : 0.9936
+INFO:root:-- val --  val_loss : 0.1183, accuracy : 0.9528 | f1 : 0.8944 | pre : 0.8090 | recall : 1.0000 | auc : 0.9929
+INFO:root:Early stop process : 18 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 93
+INFO:root:-- train -- loss : 0.1495 | accuracy : 0.9535 | f1 : 0.8980 | pre : 0.8263 | recall : 0.9833 | auc : 0.9885
+INFO:root:-- val --  val_loss : 0.0591, accuracy : 0.9750 | f1 : 0.9412 | pre : 0.8889 | recall : 1.0000 | auc : 0.9985
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 94
+INFO:root:-- train -- loss : 0.1344 | accuracy : 0.9625 | f1 : 0.9167 | pre : 0.8534 | recall : 0.9900 | auc : 0.9895
+INFO:root:-- val --  val_loss : 0.7801, accuracy : 0.9583 | f1 : 0.8872 | pre : 0.9672 | recall : 0.8194 | auc : 0.9968
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 95
+INFO:root:-- train -- loss : 0.1933 | accuracy : 0.9389 | f1 : 0.8710 | pre : 0.7775 | recall : 0.9900 | auc : 0.9844
+INFO:root:-- val --  val_loss : 0.1828, accuracy : 0.9611 | f1 : 0.9041 | pre : 0.8919 | recall : 0.9167 | auc : 0.9845
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 96
+INFO:root:-- train -- loss : 0.1267 | accuracy : 0.9625 | f1 : 0.9169 | pre : 0.8514 | recall : 0.9933 | auc : 0.9901
+INFO:root:-- val --  val_loss : 0.2484, accuracy : 0.8833 | f1 : 0.7742 | pre : 0.6316 | recall : 1.0000 | auc : 0.9952
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.9805555555555555 in fold 3 epoch 51
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 51
+INFO:root:🟢 fold 3 epoch 97
+INFO:root:-- train -- loss : 0.0932 | accuracy : 0.9764 | f1 : 0.9464 | pre : 0.8982 | recall : 1.0000 | auc : 0.9923
+INFO:root:-- val --  val_loss : 0.0758, accuracy : 0.9833 | f1 : 0.9600 | pre : 0.9231 | recall : 1.0000 | auc : 0.9986
+INFO:root:Early stop process : 4 / 20
+INFO:root:✅ get better accuracy 0.9833333333333333
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 98
+INFO:root:-- train -- loss : 0.0928 | accuracy : 0.9736 | f1 : 0.9403 | pre : 0.8899 | recall : 0.9967 | auc : 0.9934
+INFO:root:-- val --  val_loss : 0.1303, accuracy : 0.9389 | f1 : 0.8675 | pre : 0.7660 | recall : 1.0000 | auc : 0.9942
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 99
+INFO:root:-- train -- loss : 0.1189 | accuracy : 0.9667 | f1 : 0.9252 | pre : 0.8684 | recall : 0.9900 | auc : 0.9910
+INFO:root:-- val --  val_loss : 0.1972, accuracy : 0.9583 | f1 : 0.8980 | pre : 0.8800 | recall : 0.9167 | auc : 0.9930
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 100
+INFO:root:-- train -- loss : 0.1036 | accuracy : 0.9701 | f1 : 0.9325 | pre : 0.8813 | recall : 0.9900 | auc : 0.9940
+INFO:root:-- val --  val_loss : 0.0632, accuracy : 0.9833 | f1 : 0.9600 | pre : 0.9231 | recall : 1.0000 | auc : 0.9986
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 101
+INFO:root:-- train -- loss : 0.2442 | accuracy : 0.9229 | f1 : 0.8394 | pre : 0.7417 | recall : 0.9667 | auc : 0.9778
+INFO:root:-- val --  val_loss : 0.0907, accuracy : 0.9694 | f1 : 0.9290 | pre : 0.8675 | recall : 1.0000 | auc : 0.9973
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 102
+INFO:root:-- train -- loss : 0.1396 | accuracy : 0.9542 | f1 : 0.8997 | pre : 0.8268 | recall : 0.9867 | auc : 0.9882
+INFO:root:-- val --  val_loss : 0.0890, accuracy : 0.9806 | f1 : 0.9530 | pre : 0.9221 | recall : 0.9861 | auc : 0.9980
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 103
+INFO:root:-- train -- loss : 0.1563 | accuracy : 0.9535 | f1 : 0.8974 | pre : 0.8300 | recall : 0.9767 | auc : 0.9894
+INFO:root:-- val --  val_loss : 0.1159, accuracy : 0.9583 | f1 : 0.9045 | pre : 0.8353 | recall : 0.9861 | auc : 0.9952
+INFO:root:Early stop process : 10 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 104
+INFO:root:-- train -- loss : 0.1692 | accuracy : 0.9444 | f1 : 0.8799 | pre : 0.8005 | recall : 0.9767 | auc : 0.9859
+INFO:root:-- val --  val_loss : 0.1011, accuracy : 0.9750 | f1 : 0.9379 | pre : 0.9315 | recall : 0.9444 | auc : 0.9985
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 105
+INFO:root:-- train -- loss : 0.1088 | accuracy : 0.9681 | f1 : 0.9286 | pre : 0.8692 | recall : 0.9967 | auc : 0.9918
+INFO:root:-- val --  val_loss : 0.2047, accuracy : 0.9167 | f1 : 0.8276 | pre : 0.7059 | recall : 1.0000 | auc : 0.9916
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 106
+INFO:root:-- train -- loss : 0.0905 | accuracy : 0.9743 | f1 : 0.9417 | pre : 0.8925 | recall : 0.9967 | auc : 0.9957
+INFO:root:-- val --  val_loss : 0.1344, accuracy : 0.9778 | f1 : 0.9452 | pre : 0.9324 | recall : 0.9583 | auc : 0.9957
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 107
+INFO:root:-- train -- loss : 0.1468 | accuracy : 0.9611 | f1 : 0.9133 | pre : 0.8526 | recall : 0.9833 | auc : 0.9885
+INFO:root:-- val --  val_loss : 0.1355, accuracy : 0.9583 | f1 : 0.9057 | pre : 0.8276 | recall : 1.0000 | auc : 0.9929
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 108
+INFO:root:-- train -- loss : 0.1220 | accuracy : 0.9618 | f1 : 0.9155 | pre : 0.8490 | recall : 0.9933 | auc : 0.9910
+INFO:root:-- val --  val_loss : 0.0819, accuracy : 0.9750 | f1 : 0.9412 | pre : 0.8889 | recall : 1.0000 | auc : 0.9947
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.9833333333333333 in fold 3 epoch 97
+INFO:root:== best AUC : 0.9989872685185186 in fold 3 epoch 97
+INFO:root:🟢 fold 3 epoch 109
+INFO:root:-- train -- loss : 0.1045 | accuracy : 0.9688 | f1 : 0.9291 | pre : 0.8806 | recall : 0.9833 | auc : 0.9941
+INFO:root:-- val --  val_loss : 0.1328, accuracy : 0.9889 | f1 : 0.9714 | pre : 1.0000 | recall : 0.9444 | auc : 0.9999
+INFO:root:Early stop process : 16 / 20
+INFO:root:✅ get better accuracy 0.9888888888888889
+INFO:root:✅ get better auc 0.9998553240740741
+INFO:root:== best accuracy : 0.9888888888888889 in fold 3 epoch 109
+INFO:root:== best AUC : 0.9998553240740741 in fold 3 epoch 109
+INFO:root:🟢 fold 3 epoch 110
+INFO:root:-- train -- loss : 0.1133 | accuracy : 0.9611 | f1 : 0.9138 | pre : 0.8486 | recall : 0.9900 | auc : 0.9930
+INFO:root:-- val --  val_loss : 0.1256, accuracy : 0.9500 | f1 : 0.8889 | pre : 0.8000 | recall : 1.0000 | auc : 0.9932
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.9888888888888889 in fold 3 epoch 109
+INFO:root:== best AUC : 0.9998553240740741 in fold 3 epoch 109
+INFO:root:🟢 fold 3 epoch 111
+INFO:root:-- train -- loss : 0.1028 | accuracy : 0.9708 | f1 : 0.9338 | pre : 0.8862 | recall : 0.9867 | auc : 0.9943
+INFO:root:-- val --  val_loss : 4.0441, accuracy : 0.3000 | f1 : 0.3636 | pre : 0.2222 | recall : 1.0000 | auc : 0.7203
+INFO:root:Early stop process : 18 / 20
+INFO:root:== best accuracy : 0.9888888888888889 in fold 3 epoch 109
+INFO:root:== best AUC : 0.9998553240740741 in fold 3 epoch 109
+INFO:root:🟢 fold 3 epoch 112
+INFO:root:-- train -- loss : 0.2225 | accuracy : 0.9278 | f1 : 0.8493 | pre : 0.7513 | recall : 0.9767 | auc : 0.9740
+INFO:root:-- val --  val_loss : 0.5792, accuracy : 0.9528 | f1 : 0.8759 | pre : 0.9231 | recall : 0.8333 | auc : 0.9842
+INFO:root:Early stop process : 19 / 20
+INFO:root:== best accuracy : 0.9888888888888889 in fold 3 epoch 109
+INFO:root:== best AUC : 0.9998553240740741 in fold 3 epoch 109
+INFO:root:🟢 fold 3 epoch 113
+INFO:root:-- train -- loss : 0.1055 | accuracy : 0.9674 | f1 : 0.9267 | pre : 0.8710 | recall : 0.9900 | auc : 0.9927
+INFO:root:-- val --  val_loss : 0.1336, accuracy : 0.9611 | f1 : 0.9091 | pre : 0.8537 | recall : 0.9722 | auc : 0.9923
+INFO:root:Early stop ! 
+INFO:root:👉 FOLD 4
+INFO:root:Loading 12 blocks for each person
+INFO:root:🟢 fold 4 epoch 0
+INFO:root:-- train -- loss : 0.8857 | accuracy : 0.5750 | f1 : 0.4270 | pre : 0.2923 | recall : 0.7917 | auc : 0.7147
+INFO:root:-- val --  val_loss : 1.0980, accuracy : 0.8056 | f1 : 0.5000 | pre : 0.6250 | recall : 0.4167 | auc : 0.7990
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.8055555555555556
+INFO:root:✅ get better auc 0.798956176673568
+INFO:root:== best accuracy : 0.8055555555555556 in fold 4 epoch 0
+INFO:root:== best AUC : 0.798956176673568 in fold 4 epoch 0
+INFO:root:🟢 fold 4 epoch 1
+INFO:root:-- train -- loss : 0.5671 | accuracy : 0.8326 | f1 : 0.6874 | pre : 0.5487 | recall : 0.9201 | auc : 0.9217
+INFO:root:-- val --  val_loss : 0.8508, accuracy : 0.8083 | f1 : 0.6310 | pre : 0.5728 | recall : 0.7024 | auc : 0.8600
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.8083333333333333
+INFO:root:✅ get better auc 0.8599896480331264
+INFO:root:== best accuracy : 0.8083333333333333 in fold 4 epoch 1
+INFO:root:== best AUC : 0.8599896480331264 in fold 4 epoch 1
+INFO:root:🟢 fold 4 epoch 2
+INFO:root:-- train -- loss : 0.5366 | accuracy : 0.8500 | f1 : 0.7097 | pre : 0.5789 | recall : 0.9167 | auc : 0.9316
+INFO:root:-- val --  val_loss : 0.8717, accuracy : 0.8194 | f1 : 0.6524 | pre : 0.5922 | recall : 0.7262 | auc : 0.8694
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better accuracy 0.8194444444444444
+INFO:root:✅ get better auc 0.869435817805383
+INFO:root:== best accuracy : 0.8194444444444444 in fold 4 epoch 2
+INFO:root:== best AUC : 0.869435817805383 in fold 4 epoch 2
+INFO:root:🟢 fold 4 epoch 3
+INFO:root:-- train -- loss : 0.4613 | accuracy : 0.8597 | f1 : 0.7255 | pre : 0.5960 | recall : 0.9271 | auc : 0.9445
+INFO:root:-- val --  val_loss : 1.2478, accuracy : 0.8306 | f1 : 0.6211 | pre : 0.6494 | recall : 0.5952 | auc : 0.8740
+INFO:root:Early stop process : 2 / 20
+INFO:root:✅ get better accuracy 0.8305555555555556
+INFO:root:✅ get better auc 0.8739648033126294
+INFO:root:== best accuracy : 0.8305555555555556 in fold 4 epoch 3
+INFO:root:== best AUC : 0.8739648033126294 in fold 4 epoch 3
+INFO:root:🟢 fold 4 epoch 4
+INFO:root:-- train -- loss : 0.4733 | accuracy : 0.8562 | f1 : 0.7184 | pre : 0.5906 | recall : 0.9167 | auc : 0.9441
+INFO:root:-- val --  val_loss : 0.7741, accuracy : 0.8111 | f1 : 0.6421 | pre : 0.5755 | recall : 0.7262 | auc : 0.8868
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.8867753623188406
+INFO:root:== best accuracy : 0.8305555555555556 in fold 4 epoch 3
+INFO:root:== best AUC : 0.8867753623188406 in fold 4 epoch 3
+INFO:root:🟢 fold 4 epoch 5
+INFO:root:-- train -- loss : 0.4270 | accuracy : 0.8750 | f1 : 0.7493 | pre : 0.6256 | recall : 0.9340 | auc : 0.9499
+INFO:root:-- val --  val_loss : 0.6354, accuracy : 0.7750 | f1 : 0.6463 | pre : 0.5103 | recall : 0.8810 | auc : 0.8835
+INFO:root:Early stop process : 0 / 20
+INFO:root:== best accuracy : 0.8305555555555556 in fold 4 epoch 3
+INFO:root:== best AUC : 0.8867753623188406 in fold 4 epoch 3
+INFO:root:🟢 fold 4 epoch 6
+INFO:root:-- train -- loss : 0.4318 | accuracy : 0.8854 | f1 : 0.7619 | pre : 0.6519 | recall : 0.9167 | auc : 0.9498
+INFO:root:-- val --  val_loss : 0.5886, accuracy : 0.8139 | f1 : 0.6825 | pre : 0.5669 | recall : 0.8571 | auc : 0.9036
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9035973084886129
+INFO:root:== best accuracy : 0.8305555555555556 in fold 4 epoch 3
+INFO:root:== best AUC : 0.9035973084886129 in fold 4 epoch 3
+INFO:root:🟢 fold 4 epoch 7
+INFO:root:-- train -- loss : 0.4162 | accuracy : 0.8785 | f1 : 0.7539 | pre : 0.6336 | recall : 0.9306 | auc : 0.9517
+INFO:root:-- val --  val_loss : 0.9803, accuracy : 0.5333 | f1 : 0.4940 | pre : 0.3306 | recall : 0.9762 | auc : 0.8577
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.8305555555555556 in fold 4 epoch 3
+INFO:root:== best AUC : 0.9035973084886129 in fold 4 epoch 3
+INFO:root:🟢 fold 4 epoch 8
+INFO:root:-- train -- loss : 0.3728 | accuracy : 0.8875 | f1 : 0.7705 | pre : 0.6507 | recall : 0.9444 | auc : 0.9583
+INFO:root:-- val --  val_loss : 0.9271, accuracy : 0.8250 | f1 : 0.6557 | pre : 0.6061 | recall : 0.7143 | auc : 0.8874
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.8305555555555556 in fold 4 epoch 3
+INFO:root:== best AUC : 0.9035973084886129 in fold 4 epoch 3
+INFO:root:🟢 fold 4 epoch 9
+INFO:root:-- train -- loss : 0.3842 | accuracy : 0.8917 | f1 : 0.7778 | pre : 0.6594 | recall : 0.9479 | auc : 0.9561
+INFO:root:-- val --  val_loss : 0.7204, accuracy : 0.7778 | f1 : 0.6491 | pre : 0.5139 | recall : 0.8810 | auc : 0.8850
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.8305555555555556 in fold 4 epoch 3
+INFO:root:== best AUC : 0.9035973084886129 in fold 4 epoch 3
+INFO:root:🟢 fold 4 epoch 10
+INFO:root:-- train -- loss : 0.3486 | accuracy : 0.9000 | f1 : 0.7913 | pre : 0.6791 | recall : 0.9479 | auc : 0.9634
+INFO:root:-- val --  val_loss : 0.8382, accuracy : 0.8389 | f1 : 0.6778 | pre : 0.6354 | recall : 0.7262 | auc : 0.9016
+INFO:root:Early stop process : 4 / 20
+INFO:root:✅ get better accuracy 0.8388888888888889
+INFO:root:== best accuracy : 0.8388888888888889 in fold 4 epoch 10
+INFO:root:== best AUC : 0.9035973084886129 in fold 4 epoch 10
+INFO:root:🟢 fold 4 epoch 11
+INFO:root:-- train -- loss : 0.3658 | accuracy : 0.8986 | f1 : 0.7884 | pre : 0.6766 | recall : 0.9444 | auc : 0.9623
+INFO:root:-- val --  val_loss : 1.2662, accuracy : 0.8444 | f1 : 0.6543 | pre : 0.6795 | recall : 0.6310 | auc : 0.8976
+INFO:root:Early stop process : 5 / 20
+INFO:root:✅ get better accuracy 0.8444444444444444
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9035973084886129 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 12
+INFO:root:-- train -- loss : 0.3466 | accuracy : 0.9076 | f1 : 0.8041 | pre : 0.6982 | recall : 0.9479 | auc : 0.9641
+INFO:root:-- val --  val_loss : 0.7380, accuracy : 0.8111 | f1 : 0.6566 | pre : 0.5702 | recall : 0.7738 | auc : 0.8903
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9035973084886129 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 13
+INFO:root:-- train -- loss : 0.3568 | accuracy : 0.9076 | f1 : 0.8047 | pre : 0.6972 | recall : 0.9514 | auc : 0.9639
+INFO:root:-- val --  val_loss : 0.4933, accuracy : 0.8111 | f1 : 0.7018 | pre : 0.5556 | recall : 0.9524 | auc : 0.9204
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9203761214630781
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9203761214630781 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 14
+INFO:root:-- train -- loss : 0.3548 | accuracy : 0.9056 | f1 : 0.7994 | pre : 0.6949 | recall : 0.9410 | auc : 0.9636
+INFO:root:-- val --  val_loss : 1.9695, accuracy : 0.8389 | f1 : 0.6375 | pre : 0.6711 | recall : 0.6071 | auc : 0.8854
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9203761214630781 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 15
+INFO:root:-- train -- loss : 0.3636 | accuracy : 0.8812 | f1 : 0.7628 | pre : 0.6351 | recall : 0.9549 | auc : 0.9577
+INFO:root:-- val --  val_loss : 0.6403, accuracy : 0.8167 | f1 : 0.6857 | pre : 0.5714 | recall : 0.8571 | auc : 0.9036
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9203761214630781 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 16
+INFO:root:-- train -- loss : 0.3228 | accuracy : 0.9056 | f1 : 0.8012 | pre : 0.6919 | recall : 0.9514 | auc : 0.9653
+INFO:root:-- val --  val_loss : 1.0967, accuracy : 0.8444 | f1 : 0.6706 | pre : 0.6628 | recall : 0.6786 | auc : 0.9083
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9203761214630781 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 17
+INFO:root:-- train -- loss : 0.3248 | accuracy : 0.9007 | f1 : 0.7931 | pre : 0.6799 | recall : 0.9514 | auc : 0.9653
+INFO:root:-- val --  val_loss : 2.1092, accuracy : 0.8389 | f1 : 0.6133 | pre : 0.6970 | recall : 0.5476 | auc : 0.8940
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9203761214630781 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 18
+INFO:root:-- train -- loss : 0.3482 | accuracy : 0.8958 | f1 : 0.7845 | pre : 0.6691 | recall : 0.9479 | auc : 0.9619
+INFO:root:-- val --  val_loss : 4.4915, accuracy : 0.8194 | f1 : 0.4882 | pre : 0.7209 | recall : 0.3690 | auc : 0.8942
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9203761214630781 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 19
+INFO:root:-- train -- loss : 0.3327 | accuracy : 0.8993 | f1 : 0.7902 | pre : 0.6774 | recall : 0.9479 | auc : 0.9639
+INFO:root:-- val --  val_loss : 0.4599, accuracy : 0.8028 | f1 : 0.7004 | pre : 0.5425 | recall : 0.9881 | auc : 0.9304
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better auc 0.9303830227743272
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9303830227743272 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 20
+INFO:root:-- train -- loss : 0.3265 | accuracy : 0.8924 | f1 : 0.7795 | pre : 0.6602 | recall : 0.9514 | auc : 0.9676
+INFO:root:-- val --  val_loss : 1.6465, accuracy : 0.2722 | f1 : 0.3907 | pre : 0.2428 | recall : 1.0000 | auc : 0.8686
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9303830227743272 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 21
+INFO:root:-- train -- loss : 0.3079 | accuracy : 0.9125 | f1 : 0.8147 | pre : 0.7066 | recall : 0.9618 | auc : 0.9679
+INFO:root:-- val --  val_loss : 0.4677, accuracy : 0.7861 | f1 : 0.6831 | pre : 0.5220 | recall : 0.9881 | auc : 0.9330
+INFO:root:Early stop process : 2 / 20
+INFO:root:✅ get better auc 0.9329710144927537
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9329710144927537 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 22
+INFO:root:-- train -- loss : 0.2977 | accuracy : 0.9215 | f1 : 0.8285 | pre : 0.7358 | recall : 0.9479 | auc : 0.9705
+INFO:root:-- val --  val_loss : 0.9015, accuracy : 0.5917 | f1 : 0.5333 | pre : 0.3636 | recall : 1.0000 | auc : 0.9288
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.8444444444444444 in fold 4 epoch 11
+INFO:root:== best AUC : 0.9329710144927537 in fold 4 epoch 11
+INFO:root:🟢 fold 4 epoch 23
+INFO:root:-- train -- loss : 0.2635 | accuracy : 0.9299 | f1 : 0.8472 | pre : 0.7507 | recall : 0.9722 | auc : 0.9761
+INFO:root:-- val --  val_loss : 0.7194, accuracy : 0.8639 | f1 : 0.7487 | pre : 0.6577 | recall : 0.8690 | auc : 0.9198
+INFO:root:Early stop process : 4 / 20
+INFO:root:✅ get better accuracy 0.8638888888888889
+INFO:root:== best accuracy : 0.8638888888888889 in fold 4 epoch 23
+INFO:root:== best AUC : 0.9329710144927537 in fold 4 epoch 23
+INFO:root:🟢 fold 4 epoch 24
+INFO:root:-- train -- loss : 0.2613 | accuracy : 0.9285 | f1 : 0.8423 | pre : 0.7534 | recall : 0.9549 | auc : 0.9752
+INFO:root:-- val --  val_loss : 1.1542, accuracy : 0.8444 | f1 : 0.6744 | pre : 0.6591 | recall : 0.6905 | auc : 0.9181
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.8638888888888889 in fold 4 epoch 23
+INFO:root:== best AUC : 0.9329710144927537 in fold 4 epoch 23
+INFO:root:🟢 fold 4 epoch 25
+INFO:root:-- train -- loss : 0.2512 | accuracy : 0.9257 | f1 : 0.8401 | pre : 0.7375 | recall : 0.9757 | auc : 0.9781
+INFO:root:-- val --  val_loss : 0.6774, accuracy : 0.8528 | f1 : 0.7225 | pre : 0.6449 | recall : 0.8214 | auc : 0.9232
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.8638888888888889 in fold 4 epoch 23
+INFO:root:== best AUC : 0.9329710144927537 in fold 4 epoch 23
+INFO:root:🟢 fold 4 epoch 26
+INFO:root:-- train -- loss : 0.2773 | accuracy : 0.9118 | f1 : 0.8135 | pre : 0.7048 | recall : 0.9618 | auc : 0.9723
+INFO:root:-- val --  val_loss : 0.6106, accuracy : 0.8361 | f1 : 0.6943 | pre : 0.6147 | recall : 0.7976 | auc : 0.9199
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.8638888888888889 in fold 4 epoch 23
+INFO:root:== best AUC : 0.9329710144927537 in fold 4 epoch 23
+INFO:root:🟢 fold 4 epoch 27
+INFO:root:-- train -- loss : 0.2867 | accuracy : 0.9194 | f1 : 0.8263 | pre : 0.7263 | recall : 0.9583 | auc : 0.9702
+INFO:root:-- val --  val_loss : 1.0829, accuracy : 0.8472 | f1 : 0.6405 | pre : 0.7101 | recall : 0.5833 | auc : 0.9388
+INFO:root:Early stop process : 8 / 20
+INFO:root:✅ get better auc 0.9388371290545203
+INFO:root:== best accuracy : 0.8638888888888889 in fold 4 epoch 23
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 23
+INFO:root:🟢 fold 4 epoch 28
+INFO:root:-- train -- loss : 0.2865 | accuracy : 0.9201 | f1 : 0.8276 | pre : 0.7282 | recall : 0.9583 | auc : 0.9714
+INFO:root:-- val --  val_loss : 2.3933, accuracy : 0.8417 | f1 : 0.6014 | pre : 0.7288 | recall : 0.5119 | auc : 0.9317
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.8638888888888889 in fold 4 epoch 23
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 23
+INFO:root:🟢 fold 4 epoch 29
+INFO:root:-- train -- loss : 0.2704 | accuracy : 0.9222 | f1 : 0.8318 | pre : 0.7328 | recall : 0.9618 | auc : 0.9748
+INFO:root:-- val --  val_loss : 0.4544, accuracy : 0.8667 | f1 : 0.7600 | pre : 0.6552 | recall : 0.9048 | auc : 0.9357
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.8666666666666667
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 30
+INFO:root:-- train -- loss : 0.2788 | accuracy : 0.9278 | f1 : 0.8429 | pre : 0.7460 | recall : 0.9688 | auc : 0.9776
+INFO:root:-- val --  val_loss : 1.2778, accuracy : 0.8417 | f1 : 0.6369 | pre : 0.6849 | recall : 0.5952 | auc : 0.9336
+INFO:root:Early stop process : 1 / 20
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 31
+INFO:root:-- train -- loss : 0.2651 | accuracy : 0.9271 | f1 : 0.8407 | pre : 0.7466 | recall : 0.9618 | auc : 0.9756
+INFO:root:-- val --  val_loss : 2.2725, accuracy : 0.8361 | f1 : 0.5986 | pre : 0.6984 | recall : 0.5238 | auc : 0.9296
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 32
+INFO:root:-- train -- loss : 0.2295 | accuracy : 0.9347 | f1 : 0.8558 | pre : 0.7665 | recall : 0.9688 | auc : 0.9789
+INFO:root:-- val --  val_loss : 0.5497, accuracy : 0.8500 | f1 : 0.7245 | pre : 0.6339 | recall : 0.8452 | auc : 0.9338
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 33
+INFO:root:-- train -- loss : 0.2647 | accuracy : 0.9278 | f1 : 0.8424 | pre : 0.7473 | recall : 0.9653 | auc : 0.9747
+INFO:root:-- val --  val_loss : 5.1944, accuracy : 0.8278 | f1 : 0.5231 | pre : 0.7391 | recall : 0.4048 | auc : 0.9136
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 34
+INFO:root:-- train -- loss : 0.2247 | accuracy : 0.9299 | f1 : 0.8453 | pre : 0.7562 | recall : 0.9583 | auc : 0.9782
+INFO:root:-- val --  val_loss : 2.5151, accuracy : 0.8389 | f1 : 0.6184 | pre : 0.6912 | recall : 0.5595 | auc : 0.9259
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.9388371290545203 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 35
+INFO:root:-- train -- loss : 0.2520 | accuracy : 0.9313 | f1 : 0.8493 | pre : 0.7561 | recall : 0.9688 | auc : 0.9779
+INFO:root:-- val --  val_loss : 0.7263, accuracy : 0.8472 | f1 : 0.6821 | pre : 0.6629 | recall : 0.7024 | auc : 0.9424
+INFO:root:Early stop process : 6 / 20
+INFO:root:✅ get better auc 0.9424171842650104
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.9424171842650104 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 36
+INFO:root:-- train -- loss : 0.2863 | accuracy : 0.9181 | f1 : 0.8244 | pre : 0.7214 | recall : 0.9618 | auc : 0.9707
+INFO:root:-- val --  val_loss : 0.9031, accuracy : 0.8500 | f1 : 0.6707 | pre : 0.6875 | recall : 0.6548 | auc : 0.9446
+INFO:root:Early stop process : 7 / 20
+INFO:root:✅ get better auc 0.944616977225673
+INFO:root:== best accuracy : 0.8666666666666667 in fold 4 epoch 29
+INFO:root:== best AUC : 0.944616977225673 in fold 4 epoch 29
+INFO:root:🟢 fold 4 epoch 37
+INFO:root:-- train -- loss : 0.2275 | accuracy : 0.9285 | f1 : 0.8442 | pre : 0.7480 | recall : 0.9688 | auc : 0.9795
+INFO:root:-- val --  val_loss : 0.3794, accuracy : 0.8861 | f1 : 0.7897 | pre : 0.6937 | recall : 0.9167 | auc : 0.9539
+INFO:root:Early stop process : 0 / 20
+INFO:root:✅ get better accuracy 0.8861111111111111
+INFO:root:✅ get better auc 0.9538906142167012
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9538906142167012 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 38
+INFO:root:-- train -- loss : 0.2170 | accuracy : 0.9368 | f1 : 0.8602 | pre : 0.7713 | recall : 0.9722 | auc : 0.9788
+INFO:root:-- val --  val_loss : 0.5315, accuracy : 0.7639 | f1 : 0.6614 | pre : 0.4970 | recall : 0.9881 | auc : 0.9554
+INFO:root:Early stop process : 1 / 20
+INFO:root:✅ get better auc 0.9554434092477571
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 39
+INFO:root:-- train -- loss : 0.2446 | accuracy : 0.9333 | f1 : 0.8532 | pre : 0.7623 | recall : 0.9688 | auc : 0.9792
+INFO:root:-- val --  val_loss : 0.6288, accuracy : 0.8722 | f1 : 0.7444 | pre : 0.6979 | recall : 0.7976 | auc : 0.9434
+INFO:root:Early stop process : 2 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 40
+INFO:root:-- train -- loss : 0.1953 | accuracy : 0.9389 | f1 : 0.8650 | pre : 0.7747 | recall : 0.9792 | auc : 0.9817
+INFO:root:-- val --  val_loss : 0.5606, accuracy : 0.8750 | f1 : 0.7458 | pre : 0.7097 | recall : 0.7857 | auc : 0.9466
+INFO:root:Early stop process : 3 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 41
+INFO:root:-- train -- loss : 0.1803 | accuracy : 0.9514 | f1 : 0.8906 | pre : 0.8097 | recall : 0.9896 | auc : 0.9847
+INFO:root:-- val --  val_loss : 2.7673, accuracy : 0.8389 | f1 : 0.6027 | pre : 0.7097 | recall : 0.5238 | auc : 0.9327
+INFO:root:Early stop process : 4 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 42
+INFO:root:-- train -- loss : 0.2768 | accuracy : 0.9250 | f1 : 0.8359 | pre : 0.7432 | recall : 0.9549 | auc : 0.9737
+INFO:root:-- val --  val_loss : 0.6958, accuracy : 0.8694 | f1 : 0.7487 | pre : 0.6796 | recall : 0.8333 | auc : 0.9450
+INFO:root:Early stop process : 5 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 43
+INFO:root:-- train -- loss : 0.2454 | accuracy : 0.9250 | f1 : 0.8388 | pre : 0.7356 | recall : 0.9757 | auc : 0.9787
+INFO:root:-- val --  val_loss : 4.0674, accuracy : 0.8333 | f1 : 0.5714 | pre : 0.7143 | recall : 0.4762 | auc : 0.9048
+INFO:root:Early stop process : 6 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 44
+INFO:root:-- train -- loss : 0.2470 | accuracy : 0.9326 | f1 : 0.8505 | pre : 0.7645 | recall : 0.9583 | auc : 0.9793
+INFO:root:-- val --  val_loss : 0.4662, accuracy : 0.8250 | f1 : 0.7200 | pre : 0.5745 | recall : 0.9643 | auc : 0.9506
+INFO:root:Early stop process : 7 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 45
+INFO:root:-- train -- loss : 0.2167 | accuracy : 0.9319 | f1 : 0.8502 | pre : 0.7596 | recall : 0.9653 | auc : 0.9802
+INFO:root:-- val --  val_loss : 0.5387, accuracy : 0.8639 | f1 : 0.7461 | pre : 0.6606 | recall : 0.8571 | auc : 0.9450
+INFO:root:Early stop process : 8 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 46
+INFO:root:-- train -- loss : 0.1906 | accuracy : 0.9493 | f1 : 0.8854 | pre : 0.8080 | recall : 0.9792 | auc : 0.9856
+INFO:root:-- val --  val_loss : 1.3121, accuracy : 0.8611 | f1 : 0.6875 | pre : 0.7237 | recall : 0.6548 | auc : 0.9405
+INFO:root:Early stop process : 9 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9554434092477571 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 47
+INFO:root:-- train -- loss : 0.2724 | accuracy : 0.9181 | f1 : 0.8234 | pre : 0.7237 | recall : 0.9549 | auc : 0.9753
+INFO:root:-- val --  val_loss : 0.4328, accuracy : 0.8361 | f1 : 0.7354 | pre : 0.5899 | recall : 0.9762 | auc : 0.9680
+INFO:root:Early stop process : 10 / 20
+INFO:root:✅ get better auc 0.9680383022774327
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 48
+INFO:root:-- train -- loss : 0.1680 | accuracy : 0.9528 | f1 : 0.8921 | pre : 0.8216 | recall : 0.9757 | auc : 0.9856
+INFO:root:-- val --  val_loss : 1.0557, accuracy : 0.8667 | f1 : 0.7000 | pre : 0.7368 | recall : 0.6667 | auc : 0.9537
+INFO:root:Early stop process : 11 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 49
+INFO:root:-- train -- loss : 0.1919 | accuracy : 0.9437 | f1 : 0.8744 | pre : 0.7899 | recall : 0.9792 | auc : 0.9859
+INFO:root:-- val --  val_loss : 0.8108, accuracy : 0.5972 | f1 : 0.5367 | pre : 0.3668 | recall : 1.0000 | auc : 0.9060
+INFO:root:Early stop process : 12 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 50
+INFO:root:-- train -- loss : 0.2129 | accuracy : 0.9375 | f1 : 0.8624 | pre : 0.7705 | recall : 0.9792 | auc : 0.9817
+INFO:root:-- val --  val_loss : 0.6566, accuracy : 0.7500 | f1 : 0.6484 | pre : 0.4826 | recall : 0.9881 | auc : 0.9326
+INFO:root:Early stop process : 13 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 51
+INFO:root:-- train -- loss : 0.2012 | accuracy : 0.9451 | f1 : 0.8779 | pre : 0.7911 | recall : 0.9861 | auc : 0.9827
+INFO:root:-- val --  val_loss : 0.5103, accuracy : 0.8806 | f1 : 0.7624 | pre : 0.7113 | recall : 0.8214 | auc : 0.9552
+INFO:root:Early stop process : 14 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 52
+INFO:root:-- train -- loss : 0.1775 | accuracy : 0.9521 | f1 : 0.8913 | pre : 0.8156 | recall : 0.9826 | auc : 0.9844
+INFO:root:-- val --  val_loss : 0.6209, accuracy : 0.8806 | f1 : 0.7749 | pre : 0.6916 | recall : 0.8810 | auc : 0.9562
+INFO:root:Early stop process : 15 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 53
+INFO:root:-- train -- loss : 0.1704 | accuracy : 0.9549 | f1 : 0.8970 | pre : 0.8251 | recall : 0.9826 | auc : 0.9856
+INFO:root:-- val --  val_loss : 0.6469, accuracy : 0.8750 | f1 : 0.7644 | pre : 0.6822 | recall : 0.8690 | auc : 0.9470
+INFO:root:Early stop process : 16 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 54
+INFO:root:-- train -- loss : 0.1833 | accuracy : 0.9472 | f1 : 0.8805 | pre : 0.8046 | recall : 0.9722 | auc : 0.9857
+INFO:root:-- val --  val_loss : 0.5314, accuracy : 0.8083 | f1 : 0.7064 | pre : 0.5497 | recall : 0.9881 | auc : 0.9540
+INFO:root:Early stop process : 17 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 55
+INFO:root:-- train -- loss : 0.1948 | accuracy : 0.9396 | f1 : 0.8659 | pre : 0.7784 | recall : 0.9757 | auc : 0.9809
+INFO:root:-- val --  val_loss : 13.5037, accuracy : 0.7833 | f1 : 0.1522 | pre : 0.8750 | recall : 0.0833 | auc : 0.8793
+INFO:root:Early stop process : 18 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 56
+INFO:root:-- train -- loss : 0.1662 | accuracy : 0.9465 | f1 : 0.8799 | pre : 0.7989 | recall : 0.9792 | auc : 0.9887
+INFO:root:-- val --  val_loss : 1.1668, accuracy : 0.8611 | f1 : 0.6988 | pre : 0.7073 | recall : 0.6905 | auc : 0.9452
+INFO:root:Early stop process : 19 / 20
+INFO:root:== best accuracy : 0.8861111111111111 in fold 4 epoch 37
+INFO:root:== best AUC : 0.9680383022774327 in fold 4 epoch 37
+INFO:root:🟢 fold 4 epoch 57
+INFO:root:-- train -- loss : 0.1849 | accuracy : 0.9507 | f1 : 0.8885 | pre : 0.8109 | recall : 0.9826 | auc : 0.9865
+INFO:root:-- val --  val_loss : 0.4480, accuracy : 0.8472 | f1 : 0.7418 | pre : 0.6124 | recall : 0.9405 | auc : 0.9423
+INFO:root:Early stop ! 

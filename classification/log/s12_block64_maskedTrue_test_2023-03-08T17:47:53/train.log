@@ -1,0 +1,1 @@
+INFO:root:Namespace(batch_size=16, block_size=64, checkpoint=None, earlystop=10, fold=5, input_size=64, input_type=1, json_path='/mnt/ExtData/pahsos/Data/data_split.json', log_dir='./log', lr=3e-05, masked=True, note='test', num_epochs=200, optim='SGD', root_path='/mnt/ExtData/pahsos/Data/preprocessed', samples_per_patient=12, seed=147, start_epoch=0, start_fold=0)

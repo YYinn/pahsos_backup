@@ -1,0 +1,16 @@
+INFO:root:Namespace(batch_size=16, block_size=128, evaluation='acc', experiments_name='block128_new_2023-03-10T14:09:58', fold=5, input_size=64, json_path='/mnt/ExtData/workspace/pahsos/Data/data_split.json', log_dir='/mnt/ExtData/workspace/pahsos/classification/log', note='_', root_path='/mnt/ExtData/workspace/pahsos/Data/preprocessed', samples_per_patient=12, seed=147)
+INFO:root:👉 FOLD 0
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 0 -- accuracy : 0.9167 | recall : 0.7812 | spc : 0.9540 | auc : 0.9543
+INFO:root:👉 FOLD 1
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 1 -- accuracy : 0.9144 | recall : 0.9062 | spc : 0.9167 | auc : 0.9577
+INFO:root:👉 FOLD 2
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 2 -- accuracy : 0.9234 | recall : 0.7812 | spc : 0.9626 | auc : 0.9706
+INFO:root:👉 FOLD 3
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 3 -- accuracy : 0.9032 | recall : 0.6667 | spc : 0.9684 | auc : 0.9360
+INFO:root:👉 FOLD 4
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 4 -- accuracy : 0.8986 | recall : 0.8333 | spc : 0.9167 | auc : 0.9512

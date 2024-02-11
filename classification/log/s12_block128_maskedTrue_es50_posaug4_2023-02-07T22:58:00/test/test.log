@@ -1,0 +1,5 @@
+INFO:root:Namespace(batch_size=16, block_size=128, evaluation='acc', experiments_name='s12_block128_maskedTrue_es50_posaug4_2023-02-07T22:58:00', fold=5, input_size=64, input_type=1, json_path='/mnt/ExtData/pahsos/Data/data_split.json', log_dir='./log', masked=True, note='_', root_path='/mnt/ExtData/pahsos/Data/preprocessed', samples_per_patient=12, seed=147)
+INFO:root:👉 FOLD 0
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test_val -- best acc in fold 0 epoch 107 -- accuracy : 0.9983 | f1 : 0.9983 | pre : 0.9967 | recall : 1.0000 | auc : 0.9999
+INFO:root:-- test -- best acc fold 0 -- accuracy : 0.8525 | f1 : 0.8556 | pre : 0.8791 | recall : 0.8333 | auc : 0.9091

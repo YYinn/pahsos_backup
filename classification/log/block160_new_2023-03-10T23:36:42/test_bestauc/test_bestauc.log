@@ -1,0 +1,21 @@
+INFO:root:Namespace(batch_size=16, block_size=160, evaluation='auc', experiments_name='block160_new_2023-03-10T23:36:42', fold=5, input_size=64, json_path='/mnt/ExtData/pahsos/Data/data_split.json', log_dir='/mnt/ExtData/pahsos/classification/log', note='_', root_path='/mnt/ExtData/pahsos/Data/preprocessed', samples_per_patient=12, seed=147)
+INFO:root:👉 FOLD 0
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test_val -- best auc in fold 0 epoch 6 -- accuracy : 0.8972 | recall : 1.0000 | spc : 0.8715 | auc : 0.9757
+INFO:root:-- test -- best auc fold 0 -- accuracy : 0.8986 | recall : 0.8125 | spc : 0.9224 | auc : 0.9444
+INFO:root:👉 FOLD 1
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test_val -- best auc in fold 1 epoch 45 -- accuracy : 0.6806 | recall : 1.0000 | spc : 0.6007 | auc : 0.9845
+INFO:root:-- test -- best auc fold 1 -- accuracy : 0.7590 | recall : 1.0000 | spc : 0.6925 | auc : 0.9487
+INFO:root:👉 FOLD 2
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test_val -- best auc in fold 2 epoch 46 -- accuracy : 0.9667 | recall : 0.9722 | spc : 0.9653 | auc : 0.9811
+INFO:root:-- test -- best auc fold 2 -- accuracy : 0.9279 | recall : 0.8021 | spc : 0.9626 | auc : 0.9661
+INFO:root:👉 FOLD 3
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test_val -- best auc in fold 3 epoch 109 -- accuracy : 0.9889 | recall : 0.9444 | spc : 1.0000 | auc : 0.9999
+INFO:root:-- test -- best auc fold 3 -- accuracy : 0.9167 | recall : 0.7292 | spc : 0.9684 | auc : 0.9720
+INFO:root:👉 FOLD 4
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test_val -- best auc in fold 4 epoch 47 -- accuracy : 0.8333 | recall : 0.9762 | spc : 0.7899 | auc : 0.9680
+INFO:root:-- test -- best auc fold 4 -- accuracy : 0.8806 | recall : 0.9375 | spc : 0.8649 | auc : 0.9660
