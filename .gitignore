@@ -1,7 +1,7 @@
 Data
 new_zhengzhou
 backup_all
-/segmentation
+# /segmentation
 pa.zip
 result_cal_ensemble_ori.ipynb
 playground.ipynb
@@ -11,3 +11,9 @@ mask_name.csv
 /classification/visualize
 /classification/visualize_all
 /classification/version1
+segmentation/nnUNet_preprocessed
+segmentation/nnUNet_raw_data_base
+segmentation/nnUNet_trained_model
+segmentation/ori_data
+segmentation/output
+segmentation/seg.zip
