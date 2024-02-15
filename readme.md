@@ -25,7 +25,7 @@ Saving in ./Data/data_split.csv(for manually checking) and ./Data/data_split.jso
 
 # 3. Liver Segmentation
 
-Segment liver as a mask for preprocess for classification (1.3) (the crop blocks for each patient only contains liver)
+Segment liver as a mask for block cropping (preprocess for classification (1.3)) -> the crop blocks for each patient only contains liver
 
 - pretrained model : /mnt/ExtData/pahsos/segmentation/nnUNet_trained_model
 
