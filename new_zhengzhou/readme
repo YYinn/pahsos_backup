@@ -1,0 +1,33 @@
+export nnUNet_raw_data_base="/mnt/ExtData/workspace/pahsos/new_zhengzhou/segmentation/nnUNet_raw_data_base"
+
+export nnUNet_preprocessed="/mnt/ExtData/pahsos/segmentation/nnUNet_preprocessed"
+
+export RESULTS_FOLDER="/mnt/ExtData/workspace/pahsos/new_zhengzhou/segmentation/nnUNet_trained_model"
+
+
+
+nnUNet_predict -i /mnt/ExtData/workspace/pahsos/new_zhengzhou/segmentation/nnUNet_raw_data_base/nnUNet_raw_data/Task029_LITS/imagesTs -o /mnt/ExtData/workspace/pahsos/new_zhengzhou/segmentation/output2 -t 29 -m 3d_fullres
+
+
+
+json生成不知道为什么,在sfda_new环境中不行了，到nnunet中可以。跑的话是可以在sfda_new中跑的。不要再nnunet中跑，那个里面的nnunet改过。
+
+
+# 4. Pahsos classification
+```
+python train.py --block_size [block_size]
+```
+
+# 5. Model inference
+```
+python test.py --experiments_name [experiment name] --block_size [block_size]
+
+python test_outval.py --experiments_name block64_new_2023-03-08T21:35:22 --block_size 64 --evaluation acc
+python test_outval.py --experiments_name block96_new_2023-03-09T15:40:03 --block_size 96 --evaluation acc
+python test_outval.py --experiments_name block128_new_2023-03-10T14:09:58 --block_size 128 --evaluation acc
+python test_outval.py --experiments_name block160_new_2023-03-10T23:36:42 --block_size 160 --evaluation acc
+
+
+
+
+```

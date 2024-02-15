@@ -1,0 +1,16 @@
+INFO:root:Namespace(batch_size=16, block_size=96, evaluation='acc', experiments_name='block96_new_2023-03-09T15:40:03', fold=5, input_size=64, json_path='/mnt/ExtData/workspace/pahsos/new_zhengzhou/classification/data_split.json', log_dir='/mnt/ExtData/workspace/pahsos/new_zhengzhou/classification/log', note='_', root_path='/mnt/ExtData/workspace/pahsos/new_zhengzhou/processed', samples_per_patient=12, seed=147)
+INFO:root:👉 FOLD 0
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 0 -- accuracy : 0.9132 | recall : 0.9137 | spc : 0.9125 | auc : 0.9356
+INFO:root:👉 FOLD 1
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 1 -- accuracy : 0.8351 | recall : 0.9048 | spc : 0.7375 | auc : 0.9207
+INFO:root:👉 FOLD 2
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 2 -- accuracy : 0.9236 | recall : 0.9107 | spc : 0.9417 | auc : 0.9320
+INFO:root:👉 FOLD 3
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 3 -- accuracy : 0.8976 | recall : 0.9077 | spc : 0.8833 | auc : 0.9194
+INFO:root:👉 FOLD 4
+INFO:root:Loading 12 blocks for each person
+INFO:root:-- test -- best acc fold 4 -- accuracy : 0.8941 | recall : 0.9077 | spc : 0.8750 | auc : 0.9287

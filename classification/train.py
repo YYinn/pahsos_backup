@@ -94,6 +94,7 @@ for fold, (train_idx, val_idx) in enumerate(sfk.split(ori_patient_list, ori_labe
     logging.info(f'Loading {args.samples_per_patient} blocks for each person')
 
     for l in range(0, len(train_patient_list)):
+        # patient_dir = os.path.join(train_patient_list[l], f'block{args.block_size}_maskedTrue_new/') # if using nnunet segmentation result as mask
         patient_dir = os.path.join(train_patient_list[l], f'block{args.block_size}_maskedTrue_new/')
 
         for k in range(1, args.samples_per_patient+1):
@@ -105,7 +106,8 @@ for fold, (train_idx, val_idx) in enumerate(sfk.split(ori_patient_list, ori_labe
 
 
     for l in range(0, len(valid_patient_list)):
-        patient_dir = os.path.join(valid_patient_list[l], f'block{args.block_size}_maskedTrue_new/')
+        # patient_dir = os.path.join(valid_patient_list[l], f'block{args.block_size}_maskedTrue_new/') # if using nnunet segmentation result as mask
+        patient_dir = os.path.join(valid_patient_list[l], f'block{args.block_size}_maskedTrue_new/') 
 
         for k in range(1, args.samples_per_patient+1):
             if os.path.exists(os.path.join(patient_dir, f'{k}.npy')):

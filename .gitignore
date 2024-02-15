@@ -1,5 +1,14 @@
 Data
-new_zhengzhou
+# new_zhengzhou
+new_zhengzhou/processed
+new_zhengzhou/segmentation/nnUNet_preprocessed
+new_zhengzhou/segmentation/nnUNet_raw_data_base
+new_zhengzhou/segmentation/nnUNet_trained_model
+new_zhengzhou/segmentation/output
+new_zhengzhou/segmentation/output1
+new_zhengzhou/segmentation/output2
+new_zhengzhou/202402label.csv
+new_zhengzhou/mask_name.csv
 backup_all
 # /segmentation
 pa.zip
@@ -17,3 +26,6 @@ segmentation/nnUNet_trained_model
 segmentation/ori_data
 segmentation/output
 segmentation/seg.zip
+classification/ablation_log
+preprocess_ablation.ipynb
+classification/pahsos_classification.zip

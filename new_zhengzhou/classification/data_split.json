@@ -1,0 +1,244 @@
+{
+    "test": [
+        {
+            "type": "None",
+            "patient_name": "CHENGUITANG",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "DINGKOU",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "DINGXIZHENG",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "FANGJIALI",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "FENGZHAOYIN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "GUOJINLIANG",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "GUORUANCHAO",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "HANTIEZHU",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "JINYUEE",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "LIGUOQIANG",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "LIJUN",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "LILINGSHAN",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "LIQINGXI",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "LIUXINMIN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "LIUXIUYU",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "LUFENGDE",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "MALAN",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "MAMEILING",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "MENGXIANLIAN",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "MIAOSHUQIN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "NIUSHUAN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "NIUSHUAN2",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "NIUSHUAN3",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "OUXIANCHEN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "SHIHAIXIA",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "SHIHEWANG",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "SUNYONGXIN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "SUNZHIQIANG",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "TIANQUANWU",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "TONGNANGZI",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "WANGHAIXIN",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "WANGXIAOHUA",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "XIAOJINZHONG",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "XIEDONGMEI",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "XIETAO",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "XUANYUAN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "XUPENGPENG",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "YANFENGCHAN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "YANGUOQIANG",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "YANXIAN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "YUANGONGXIAN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "ZHANGCHANGHAI",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "ZHANGGUANGCHAO",
+            "label": 0
+        },
+        {
+            "type": "None",
+            "patient_name": "ZHANGQINGTAO",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "ZHANGSHENGCAI",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "ZHANGTINGLIN",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "ZHANGXIUHUA",
+            "label": 1
+        },
+        {
+            "type": "None",
+            "patient_name": "ZHUYOULIANG",
+            "label": 0
+        }
+    ]
+}

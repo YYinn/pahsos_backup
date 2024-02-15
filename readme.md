@@ -3,9 +3,9 @@
 Part 1 in ./preprocess.ipynb
 Simplify original data.
 
-- original data : /mnt/ExtData/pahsos/Data/raw_data (img : .dcm, seg : .nii.gz). msequences in different folders 
+- original data : ./Data/raw_data (img : .dcm, seg : .nii.gz). msequences in different folders 
 
-- simple data : /mnt/ExtData/pahsos/Data/simple_data . only contains specific folders for each patient (img : .dcm, seg : .nii.gz)
+- simple data : ./Data/simple_data . only contains specific folders for each patient (img : .dcm, seg : .nii.gz)
 
 ## 1.2 Data prerpocess for auto segmentation
 Part 2 in ./preprocess.ipynb
@@ -13,7 +13,7 @@ Part 2 in ./preprocess.ipynb
 ## 1.3 Data prerpocess for classification
 Part 3 in ./preprocess.ipynb
 
-save into : /mnt/ExtData/pahsos/Data/preprocessed 
+save into : ./Data/preprocessed 
 
 - img & resampled img & mask & resampled mask : .npy
 - blocked_img : $/block{block_size}_masked{maskedornot}/{idx}.npy
@@ -27,13 +27,16 @@ Saving in ./Data/data_split.csv(for manually checking) and ./Data/data_split.jso
 
 Segment liver as a mask for block cropping (preprocess for classification (1.3)) -> the crop blocks for each patient only contains liver
 
-- pretrained model : /mnt/ExtData/pahsos/segmentation/nnUNet_trained_model
+We have four sub-folders in segmentation folder:
+- pretrained model : ./segmentation/nnUNet_trained_model
 
-- ori data in required name format : /mnt/ExtData/pahsos/segmentation/nnUNet_raw_data_base/nnUNet_raw_data/Task029_LITS/imagesTs. (corresponding name in ipynb files or /mnt/ExtData/pahsos/mask_name.csv)
+- ori data in required name format : ./segmentation/nnUNet_raw_data_base/nnUNet_raw_data/Task029_LITS/imagesTs. (corresponding name in ipynb files or ./mask_name.csv)
 
-- use /mnt/ExtData/pahsos/segmentation/Task029_LiverTumorSegmentationChallenge.py to create json file
+- use ./segmentation/Task029_LiverTumorSegmentationChallenge.py to create json file
 
-- output : /mnt/ExtData/pahsos/segmentation/output
+- output : ./segmentation/output
+
+Since all the folders only contains data and models directly downloaded from nnunet package, only the modified file for json created is submitted github responsitories.
 
 ```
 1. install
@@ -52,11 +55,11 @@ Segment liver as a mask for block cropping (preprocess for classification (1.3))
 
 4. export environment variables 
 
-    export nnUNet_raw_data_base="/mnt/ExtData/pahsos/segmentation/nnUNet_raw_data_base"
+    export nnUNet_raw_data_base="./segmentation/nnUNet_raw_data_base"
 
-    export nnUNet_preprocessed="/mnt/ExtData/pahsos/segmentation/nnUNet_preprocessed"
+    export nnUNet_preprocessed="./segmentation/nnUNet_preprocessed"
     
-    export RESULTS_FOLDER="/mnt/ExtData/pahsos/segmentation/nnUNet_trained_model"
+    export RESULTS_FOLDER="./segmentation/nnUNet_trained_model"
 
 5. check pretrained model info 
 
